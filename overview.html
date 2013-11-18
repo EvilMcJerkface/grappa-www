@@ -1,0 +1,80 @@
+<!--#include virtual="header.inc" -->
+
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>  
+        <span class="icon-bar"></span>
+      </a>
+      <a class="brand" href="index.html">Grappa</a>
+      <div class="nav-collapse">
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <!-- <li><a href="#download">Download</a></li> -->
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+
+  <div class="row">
+    <div class="span5">
+
+      <h2>What is Grappa?</h2>
+
+      <p>Mass-market computer systems are designed to exploit spatial
+	locality via cache and local memory to achieve high
+	efficiency. Unfortunately, when processing graphs spatial locality is
+	often difficult, if not impossible, to express.</p>
+
+      <p>As system size grows,
+	edges in a graph distributed across its nodes' memories become
+	increasingly likely to join vertices that are far apart. The rate of
+	traversal slows. Consequently, even though parallelism and hardware
+	resources increase, performance degrades.</p>
+
+      <p>Grappa is a latency-tolerant runtime for mass-market clusters
+	that mitigates this degradation, allowing graph processing to scale up
+	even in the presence of diminishing locality and increasing
+	latency. Grappa works by: 
+	<ul>
+	  <li>exploiting fine-grained task parallelism to
+	    tolerate the increasing latency, and</li>
+	  <li>aggregating remote references
+	    from disparate tasks to make better use of diminishing bandwidth at
+	    scale.</li>
+	</ul>
+	The application developer need only express parallelism, not
+	decide when and how to exploit it.
+
+      <h2>Key idea: Trade latency for throughput</h2>
+      <p>Grappa’s core component is a lightweight cooperative threading system. We tolerate latency by context-switching to other work.
+	Given this ability, we can increase throughput by increasing the latency of key operations:
+	<ul>
+	  <li>Context-switch on long-latency memory operations</li>
+	  <li>Delay and aggregate messages for better utilization of network bandwidth</li>
+	  <li>Migrate synchronization operations to avoid unnecessary serialization</li>
+	</ul>
+      </p>
+      
+      <p><a class="btn" href="approach.html">See how Grappa works &raquo;</a></p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <footer>
+    <p>&copy; University of Washington CSE 2012</p>
+  </footer>
+  
+</div> <!-- /container -->
+
+
+<!--#include virtual="footer.inc" -->
