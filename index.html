@@ -1,70 +1,207 @@
-<!--#include virtual="header.inc" -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
-<div class="navbar navbar-fixed-top">
-  <div class="navbar-inner">
+    <title>Grappa: scaling irregular applications on commodity clusters</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron-narrow.css" rel="stylesheet">
+    <style type="text/css">
+      /* body { */
+      /*   padding-top: 60px; */
+      /*   padding-bottom: 40px; */
+      /* } */
+
+      /* .orange { */
+      /* color: orange; */
+      /* } */
+
+      .jumbotron-img {
+	background-image: url("images/hairball-header-cropped.jpg");
+	background-position:top right;
+	background-repeat:no-repeat;
+	z-index:1;
+      }
+    </style>
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
     <div class="container">
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>  
-        <span class="icon-bar"></span>
-      </a>
-      <a class="brand" href="index.html">Grappa</a>
-      <div class="nav-collapse">
-        <ul class="nav">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <!-- <li><a href="#download">Download</a></li> -->
+      <div class="header">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-      </div><!--/.nav-collapse -->
-    </div>
-  </div>
-</div>
+        <h3 class="text-muted">Grappa</h3>
+      </div>
+
+      <div class="jumbotron">
+        <h1>Grappa</h1>
+        <p class="lead">Scaling irregular applications on commodity clusters</p>
+        <p><a class="btn btn-lg btn-success" href="#contact" role="button">Release coming soon: sign up today</a></p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Irregular applications are hard to scale</h3>
+          <p>Irregular applications arise in:
+          <ul>
+            <li>Social network analysis</li>
+            <li>Semantic databases</li>
+            <li>Combinatorial optimization</li>
+            <li>Circuit simulation</li>
+            <li>Machine learning </li>
+          </ul>
+      
+          <p>Low locality and frequent random communication make these applications difficult to scale on commodity clusters.</p>
+          
+          <h3>Grappa makes scaling irregular applications easier</h3>
+          <p>Programming models like MapReduce and GraphLab can be restrictive; for example, parallel recursive algorithms are hard to express.</p>
+          
+          <p>Grappa provides a familiar multithreaded programming model, making it easy to scale up irregular applications on commodity clusters.</p>
+
+          <h3>Grappa's core features</h3>
+          Grappa’s runtime system consists of three key components:
+          <dl>
+          <dt>Tasking layer</dt>
+          <dd>Supports millions of threads across the cluster</dd>
+	  <dd>Automatically balances load with work stealing</dd><br />
+
+          <dt>Distributed shared memory (DSM)</dt>
+	  <dd>Provides a single system, shared memory abstraction</dd><br />
+          
+          <dt>Communication</dt>
+          <dd>Supports high-throughput small message communication</dd><br />
+          </dl>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <a name="About"></a>
+          <h4>About the project</h4>
+          <a name="about"></a>
+          <p>Grappa is a project group in the <a href="http://sampa.cs.washington.edu">Sampa Group</a> at the
+	  <a href="http://www.washington.edu">University of Washington</a>.
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12">
+        <h5>Graduate students</h5>
+        <div class="col-lg-3" align="center">
+          <img src="images/nelson.jpg" height="100" />
+          <h5>Jacob Nelson</h5>
+        </div>
+        
+        <div class="col-lg-3" align="center">
+          <img src="images/myers.jpg" height="100" />
+          <h5>Brandon Myers</h5>
+        </div>
+        
+        <div class="col-lg-3" align="center">
+          <img src="images/holt.jpg" height="100" />
+          <h5>Brandon Holt</h5>
+        </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12">
+        <h5>Faculty</h5>
+        <div class="col-lg-3" align="center">
+          <img src="images/kahan.jpg" height="100" />
+          <h5>Simon Kahan</h5>
+        </div>
+        
+        <div class="col-lg-3" align="center">
+          <img src="images/briggs.jpg" height="100" />
+          <h5>Preston Briggs</h5>
+        </div>
+        
+        <div class="col-lg-3" align="center">
+          <img src="images/ceze.jpg" height="100" />
+          <h5>Luis Ceze</h5>
+        </div>
+        
+        <div class="col-lg-3" align="center">
+          <img src="images/oskin.jpg" height="100" />
+          <h5>Mark Oskin</h5>
+        </div>
+        </div>
+      </div>
 
 
-<div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <a name="contact"></a>
+          <h4>Contact us</h4>
+          <script type="text/javascript">
+	    //<![CDATA[
+            <!--
+            var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+            "=48){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
+            ".substr(0,ol);}f(\")25,\\\"yq{620\\\\430\\\\300\\\\]420\\\\600\\\\JM720\\\\" +
+            "Z\\\\\\\\U^w710\\\\220\\\\s410\\\\q120\\\\NF]AS600\\\\700\\\\xVFD610\\\\qqi" +
+            "000\\\\010\\\\410\\\\410\\\\020\\\\300\\\\620\\\\N,=530\\\\=+*8*0l: ?;0=m22" +
+            "0\\\\p*.8!h&zgl-.$4VLJ220\\\\OT\\\\\\\\UBUZP\\\"(f};o nruter};))++y(^)i(tAe" +
+            "doCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y;i=+y)25==i(fi{)++i;l<i;0=i(rof;htgn" +
+            "el.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\")"                                  ;
+            while(x=eval(x));
+            //-->
+            //]]>
+          </script> 
 
-  <div class="hero-unit hero-img" style="color:white">
-    <h1>Grappa</h1>
-    <p>Grappa enables high-throughput graph processing on commodity clusters.</p>
-    <p><a class="btn btn-primary btn-large" href="overview.html">Learn more &raquo;</a></p>
-  </div>
-  
-  <div class="row">
-    <div class="span4">
-      <h2>Exploit irregular parallelism</h2>
-      <p>Big graph problems present big performance problems on
-	mass-market hardware. Finding locality is difficult, and
-	parallelism is irregular, making it hard to balance load
-	across a cluster. Grappa helps you express and exploit the
-	parallelism in your application.</p>
-      <p><a class="btn" href="overview.html">View details &raquo;</a></p>
-    </div>
-    <div class="span4">
-      <h2>Trade latency for throughput</h2>
-      <p>Grappa's lightweight context switching opens up optimization
-	opportunities that lead to better performance. Given lots of
-	parallelism, Grappa can trade latency for high random-access
-	memory bandwith, better effective network injection rates, and
-	fine-grained lightweight synchronization.</p>
-      <p><a class="btn" href="approach.html">View details &raquo;</a></p>
-    </div>
-    <div class="span4">
-      <h2>Beat special-purpose hardware</h2>
-      <p>Early results suggest that Grappa enables commodity
-	hardware to crunch graphs faster than special-purpose
-	supercomputers like the Cray XMT.</p>
-      <p><a class="btn" href="performance.html">View details &raquo;</a></p>
-    </div>
-  </div>
-  
-  <hr>
-  
-  <footer>
-    <p>&copy; University of Washington CSE 2012</p>
-  </footer>
-  
-</div> <!-- /container -->
+          or join or mailing list to be informed about software releases:
+
+          <!-- Begin MailChimp Signup Form -->
+          <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css" />
+          <style type="text/css">
+	    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+          </style>
+          <div id="mc_embed_signup">
+            <form action="http://washington.us3.list-manage.com/subscribe/post?u=f8b299cc9f146d09c0ae6e1bd&amp;id=d61febd840" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required />
+	      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+              </div>
+            </form>
+          </div>
+          <!--End mc_embed_signup-->
+        </div>
+      </div>
+
+      <div class="footer">
+        <p>&copy; University of Washington 2013</p>
+      </div>
+
+    </div> <!-- /container -->
 
 
-<!--#include virtual="footer.inc" -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  </body>
+</html>
