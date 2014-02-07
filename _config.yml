@@ -1,0 +1,28 @@
+name: Grappa
+description: Scaling irregular applications on commodity clusters.
+markdown: redcarpet
+pygments: true
+highlighter: pygments
+
+redcarpet:
+    extensions: ["with_toc_data"]
+
+base: ''
+
+url: http://grappa.io/
+
+permalink: /blog/:title.html
+
+exclude: [README.md, Makefile]
+
+# Navigation bar links.
+navigation:
+    - title: Home
+      link: /
+    - title: About
+      link: #about
+    - title: Contact
+      link: #contact
+    - title:
+      link: http://github.com/bholt
+      icon: /images/GitHub-Mark-32px.png
