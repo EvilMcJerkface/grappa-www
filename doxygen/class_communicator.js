@@ -1,0 +1,26 @@
+var class_communicator =
+[
+    [ "Communicator", "class_communicator.html#abd4c26c6a901e571bc9cfc4259e65de3", null ],
+    [ "activate", "class_communicator.html#aae81c7b2e5bcbf229f50b6e5e8c44b72", null ],
+    [ "barrier", "class_communicator.html#aad4a56618eda5b736b29f105aae2dfa3", null ],
+    [ "barrier_notify", "class_communicator.html#a23506735326ee657383bced6961f4576", null ],
+    [ "barrier_try", "class_communicator.html#ad95e1c9e8d5bb7426942fccb237c9983", null ],
+    [ "cores", "class_communicator.html#a0aac863ad2579eb25d99a322fb0af674", null ],
+    [ "finish", "class_communicator.html#a17e451c0d3a99b4baa328e0d3ea7af0c", null ],
+    [ "hostname", "class_communicator.html#a1a66624f1ca6a1563a78e98da780ba7c", null ],
+    [ "init", "class_communicator.html#a8a7b18bc1a9e386f54483264380026b4", null ],
+    [ "inline_limit", "class_communicator.html#a8c51ba735f987fae28efd2ba2f68e4a5", null ],
+    [ "locale_cores", "class_communicator.html#a66e2cd9060403c5b71c8bd1d1c565fe5", null ],
+    [ "locale_mycore", "class_communicator.html#a1bb0ffc874dd1a8d1ad54b09d20836c6", null ],
+    [ "locale_of", "class_communicator.html#a986691bd7d29970eb920469424664495", null ],
+    [ "locales", "class_communicator.html#a4e6f11e72fd39ed116b92a026d8cdcc6", null ],
+    [ "mycore", "class_communicator.html#a9a0c23626f7471e4e865de049341b28f", null ],
+    [ "mylocale", "class_communicator.html#ab32ff26d0e687dea3de405ae75d85238", null ],
+    [ "poll", "class_communicator.html#a0be3e6549eae9e67a59b6a06a9ec1cfb", null ],
+    [ "register_active_message_handler", "class_communicator.html#a9f2802c57a8c401a1fb99b61e2877176", null ],
+    [ "send", "class_communicator.html#a4b8f3f56cdc31b5067cdfb9bcb4af8be", null ],
+    [ "send", "class_communicator.html#a987511493508907f60defb4dc89bea50", null ],
+    [ "send_async", "class_communicator.html#a29f8c8ffb561ecc9e901c4ca33ce7179", null ],
+    [ "send_immediate", "class_communicator.html#a0f9448b267faeddbf05c57721614ff2a", null ],
+    [ "stats", "class_communicator.html#a80527924d0e668730222e7814e84cca7", null ]
+];

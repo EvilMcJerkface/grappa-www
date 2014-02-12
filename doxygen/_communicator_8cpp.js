@@ -1,0 +1,28 @@
+var _communicator_8cpp =
+[
+    [ "ONE_MEGA", "_communicator_8cpp.html#a4d3c19bcd13829f5139bd1516cf4e517", null ],
+    [ "SHARED_PROCESS_MEMORY_OFFSET", "_communicator_8cpp.html#aef1f08cf3f39560c82bc5bcc049e2191", null ],
+    [ "SHARED_PROCESS_MEMORY_SIZE", "_communicator_8cpp.html#a31591fa5ce3a5284d4fbbddd08170e4a", null ],
+    [ "finalise_mpi", "_communicator_8cpp.html#a6718249710c0b7fb56c33d457d294561", null ],
+    [ "GRAPPA_DEFINE_METRIC", "_communicator_8cpp.html#ada0ec07bf04160b3a801ef948cf6cbc0", null ],
+    [ "GRAPPA_DEFINE_METRIC", "_communicator_8cpp.html#affa49014a993c47880466cc94c5a516f", null ],
+    [ "GRAPPA_DEFINE_METRIC", "_communicator_8cpp.html#a777d184f560811e916ebeea677cecf00", null ],
+    [ "GRAPPA_DEFINE_METRIC", "_communicator_8cpp.html#acbed56cccea651ee83ed9a2ab67b0491", null ],
+    [ "GRAPPA_DEFINE_METRIC", "_communicator_8cpp.html#aceb889ca821795093e8608a278cf16ef", null ],
+    [ "GRAPPA_DEFINE_METRIC", "_communicator_8cpp.html#a3c64adb571be1b21fa3df5c8a6078c3d", null ],
+    [ "GRAPPA_DEFINE_METRIC", "_communicator_8cpp.html#a08fbe109e24e70be72684a01201dca2c", null ],
+    [ "GRAPPA_DEFINE_METRIC", "_communicator_8cpp.html#a5865f69aebb55872ee403f273368c0da", null ],
+    [ "GRAPPA_DEFINE_METRIC", "_communicator_8cpp.html#a20182d1deac488da0c3dff0d3b1b565b", null ],
+    [ "GRAPPA_DEFINE_METRIC", "_communicator_8cpp.html#a247c976f6dfa0b5ab22eac6217972828", null ],
+    [ "GRAPPA_DEFINE_METRIC", "_communicator_8cpp.html#a058537635cac8b722b907391c0a36ec5", null ],
+    [ "GRAPPA_DEFINE_METRIC", "_communicator_8cpp.html#a59058efa873209bb561c58721326be3b", null ],
+    [ "GRAPPA_DEFINE_METRIC", "_communicator_8cpp.html#aed1c29b3699b29eaa1692d21c03692fc", null ],
+    [ "GRAPPA_DEFINE_METRIC", "_communicator_8cpp.html#ab59cb29dab8d2f5e40bd7775b8e0efe6", null ],
+    [ "GRAPPA_DEFINE_METRIC", "_communicator_8cpp.html#a3646a90d57940a44adef7e409edc3791", null ],
+    [ "GRAPPA_DEFINE_METRIC", "_communicator_8cpp.html#a85a90f78aef4b9b529c3cfb7fdf31cde", null ],
+    [ "GRAPPA_DEFINE_METRIC", "_communicator_8cpp.html#a1c19697b46a8b5492d39386b34f0c9a3", null ],
+    [ "GRAPPA_DEFINE_METRIC", "_communicator_8cpp.html#a56510ec03359d62a278ed9b851585af1", null ],
+    [ "GRAPPA_DEFINE_METRIC", "_communicator_8cpp.html#ac1253b86aa196b16091f12eac604857f", null ],
+    [ "GRAPPA_DEFINE_METRIC", "_communicator_8cpp.html#ab0e4b925d9cf3483c57a61ab12b67c83", null ],
+    [ "global_communicator", "_communicator_8cpp.html#a6925faf8d80069d797cb044471ca94b3", null ]
+];

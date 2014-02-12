@@ -1,0 +1,46 @@
+var common_8hpp =
+[
+    [ "range_t", "structrange__t.html", "structrange__t" ],
+    [ "block_offset_t", "structblock__offset__t.html", "structblock__offset__t" ],
+    [ "Functor", "struct_functor.html", "struct_functor" ],
+    [ "AUTO_CONSTRUCTOR", "common_8hpp.html#a8a20490f42add0a977b98d4ebb80a7b4", null ],
+    [ "AUTO_CONSTRUCTOR_DETAIL", "common_8hpp.html#ab2efb0e0396728e62b940c4eca8faf5f", null ],
+    [ "AUTO_CONSTRUCTOR_DETAIL_INIT", "common_8hpp.html#ac41e2dc2d3a69342477ce524758d929b", null ],
+    [ "AUTO_CONSTRUCTOR_DETAIL_PARAM", "common_8hpp.html#a3c5a56a632cb5158d772d8baef216558", null ],
+    [ "AUTO_DECLS", "common_8hpp.html#adaec39cc953356dec3728e157df4aff5", null ],
+    [ "BILLION", "common_8hpp.html#a31f99d9c502b52b5f36dc7e2028c2e80", null ],
+    [ "CAT_EACH", "common_8hpp.html#af20de6aae904fe3e78ab4856a8713558", null ],
+    [ "CHECK_NULL", "common_8hpp.html#ga7bf1ad59490562f507223cd6ca2cc6fa", null ],
+    [ "DCHECK_NULL", "common_8hpp.html#ga2209830df6b59d1ec1fdf66b9352924f", null ],
+    [ "DECL_W_TYPE", "common_8hpp.html#a42a12fab6a2203bc105ccb387d461908", null ],
+    [ "DISALLOW_COPY_AND_ASSIGN", "common_8hpp.html#a80b947ac1afe94620a866c2040ea44d1", null ],
+    [ "FUNCTOR", "common_8hpp.html#a6439569c5b22ba27784bc92ed165107e", null ],
+    [ "GET_NAME", "common_8hpp.html#a699618b24a235364d46933eaf73a189c", null ],
+    [ "GET_TYPE", "common_8hpp.html#ae614ededcb1de7659e83d8d8dd8ce140", null ],
+    [ "GRAPPA_DEPRECATED", "common_8hpp.html#abe2f19f429a29d7212b0915e124bb33e", null ],
+    [ "GRAPPA_TIME", "common_8hpp.html#a9b33cb20ba42d43bde0d22857ef518c9", null ],
+    [ "GRAPPA_TIME_LOG", "common_8hpp.html#a2fb51b486292de0397e0c4c6280b159e", null ],
+    [ "GRAPPA_TIMER", "common_8hpp.html#af55302d3157c7a643acd721be77bc6aa", null ],
+    [ "MILLION", "common_8hpp.html#a368e7704f92e34c8ea0a5c263a95a1b1", null ],
+    [ "rdtscll", "common_8hpp.html#ac24e1ca366317fc627e4ba6ec3cbc67b", null ],
+    [ "SyncMode", "common_8hpp.html#a1eb494aa98f6908538488b8d98cdbc7a", [
+      [ "Blocking", "common_8hpp.html#a1eb494aa98f6908538488b8d98cdbc7aabd0ca6be53b0f3d2886fd53fcb52574e", null ],
+      [ "Async", "common_8hpp.html#a1eb494aa98f6908538488b8d98cdbc7aa24aa4117da86c41684ad25742832dfa6", null ]
+    ] ],
+    [ "TaskMode", "common_8hpp.html#ac6ade1fca200baa13c39fe78703897b9", [
+      [ "Bound", "common_8hpp.html#ac6ade1fca200baa13c39fe78703897b9a685d1f2146dd079015e81918414e8971", null ],
+      [ "Unbound", "common_8hpp.html#ac6ade1fca200baa13c39fe78703897b9aedac80248b7bf68ccfaa9c78bfb81c32", null ]
+    ] ],
+    [ "blockDist", "common_8hpp.html#a23bb0722a5c796da7b6f1cde3c344851", null ],
+    [ "CheckNull", "common_8hpp.html#ad0045544506f1fdadeb730ae88e1ec66", null ],
+    [ "fast_rand", "common_8hpp.html#ae4232dccafa4e46139b8e86e7eb2c79c", null ],
+    [ "fast_srand", "common_8hpp.html#a8caee38dd990c5a1d30deeae7cdc5a37", null ],
+    [ "Grappa_magic_identity_function", "common_8hpp.html#a8b17e4dfe81cc38e12681baa6c268bac", null ],
+    [ "indexToBlock", "common_8hpp.html#a36451ab04dc83653ca56946fec2410c2", null ],
+    [ "log2", "common_8hpp.html#a5f9f7ce6965bdc58e572cf18c067a0ed", null ],
+    [ "operator<<", "common_8hpp.html#a4f21489192c5901ad66bdbe232476d6a", null ],
+    [ "signextend", "common_8hpp.html#a6149478207207958276f9c09b6137a3d", null ],
+    [ "typename_of", "common_8hpp.html#gafcbdfaa9de31d679a52eda38a521cec5", null ],
+    [ "typename_of", "common_8hpp.html#ga3d051099836ebef97277941196c527eb", null ],
+    [ "walltime", "common_8hpp.html#a10cafc5a51b1eefe09225ca90dd79efb", null ]
+];
