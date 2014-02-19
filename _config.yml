@@ -20,9 +20,9 @@ navigation:
     - title: Home
       link: /
     - title: About
-      link: #about
+      link: "#about"
     - title: Contact
-      link: #contact
+      link: "#contact"
     - title:
       link: http://github.com/uwsampa/grappa
       icon: /images/GitHub-Mark-32px.png
