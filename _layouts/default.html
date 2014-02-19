@@ -36,6 +36,13 @@
     ga('require', 'linkid', 'linkid.js');
     ga('send', 'pageview');
 
+    var trackOutboundLink = function(url) {
+      ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+        function () {
+          document.location = url;
+        }
+      });
+    }
   </script>
 </head>
 <body>
@@ -48,7 +55,7 @@
             <li {% if item.link == shorturl %}class="active"{% endif %}>
               
               {% if item.link contains 'http' %}
-              <a href="{{ item.link }}">
+              <a href="{{ item.link }}" onclick="trackOutboundLink('{{ item.link }}'); return false;">
               {% else %}
               <a href="{{ site.base }}{{ item.link }}" >
               {% endif %}
