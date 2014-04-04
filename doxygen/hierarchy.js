@@ -1,5 +1,6 @@
 var hierarchy =
 [
+    [ "Grappa::AdjIterator< V >", "struct_grappa_1_1_adj_iterator.html", null ],
     [ "Aggregator", "class_aggregator.html", null ],
     [ "AggregatorBuffer< max_size_ >", "class_aggregator_buffer.html", null ],
     [ "AggregatorBuffer< buffer_size_ >", "class_aggregator_buffer.html", null ],
@@ -30,6 +31,7 @@ var hierarchy =
     [ "Grappa::impl::CoreData", "struct_grappa_1_1impl_1_1_core_data.html", null ],
     [ "Grappa::CountingSemaphore", "class_grappa_1_1_counting_semaphore.html", null ],
     [ "DictOut", "class_dict_out.html", null ],
+    [ "Grappa::TupleGraph::Edge", "struct_grappa_1_1_tuple_graph_1_1_edge.html", null ],
     [ "Entry", "class_entry.html", null ],
     [ "Grappa::GlobalHashMap< K, V >::Entry", "struct_grappa_1_1_global_hash_map_1_1_entry.html", null ],
     [ "Grappa::GlobalHashSet< K >::Entry", "struct_grappa_1_1_global_hash_set_1_1_entry.html", null ],
@@ -57,11 +59,15 @@ var hierarchy =
     [ "GlobalAddress< Grappa::GlobalHashSet >", "class_global_address.html", null ],
     [ "GlobalAddress< Grappa::GlobalHashSet::Cell >", "class_global_address.html", null ],
     [ "GlobalAddress< Grappa::GlobalVector >", "class_global_address.html", null ],
+    [ "GlobalAddress< Grappa::Graph >", "class_global_address.html", null ],
+    [ "GlobalAddress< Grappa::Graph< V > >", "class_global_address.html", null ],
     [ "GlobalAddress< Grappa::Grappa::CompletionEvent >", "class_global_address.html", null ],
     [ "GlobalAddress< Grappa::impl::QueueEntry< T > >", "class_global_address.html", null ],
+    [ "GlobalAddress< Grappa::TupleGraph::Edge >", "class_global_address.html", null ],
     [ "GlobalAddress< IncoherentAcquirer >", "class_global_address.html", null ],
     [ "GlobalAddress< IncoherentReleaser >", "class_global_address.html", null ],
     [ "GlobalAddress< int64_t >", "class_global_address.html", null ],
+    [ "GlobalAddress< V >", "class_global_address.html", null ],
     [ "GlobalAllocator", "class_global_allocator.html", null ],
     [ "Grappa::GlobalCounter", "class_grappa_1_1_global_counter.html", null ],
     [ "Grappa::GlobalHashMap< K, V >", "class_grappa_1_1_global_hash_map.html", null ],
@@ -71,6 +77,7 @@ var hierarchy =
     [ "Grappa::impl::GlobalQueue< T >", "class_grappa_1_1impl_1_1_global_queue.html", null ],
     [ "Grappa::Metrics::GlobalQueueMetrics", "class_grappa_1_1_metrics_1_1_global_queue_metrics.html", null ],
     [ "Grappa::GlobalVector< T, BUFFER_CAPACITY >", "class_grappa_1_1_global_vector.html", null ],
+    [ "Grappa::Graph< V >", "struct_grappa_1_1_graph.html", null ],
     [ "IAMetrics", "class_i_a_metrics.html", null ],
     [ "Incoherent< T >", "struct_incoherent.html", null ],
     [ "IncoherentAcquirer< T >", "class_incoherent_acquirer.html", null ],
@@ -81,8 +88,8 @@ var hierarchy =
     [ "Grappa::impl::LocaleSharedMemory", "class_grappa_1_1impl_1_1_locale_shared_memory.html", null ],
     [ "LocalIterator< T >", "struct_local_iterator.html", null ],
     [ "LRQueue", "class_l_r_queue.html", null ],
-    [ "Grappa::GlobalVector< T, BUFFER_CAPACITY >::Master", "struct_grappa_1_1_global_vector_1_1_master.html", null ],
     [ "Grappa::GlobalCounter::Master", "struct_grappa_1_1_global_counter_1_1_master.html", null ],
+    [ "Grappa::GlobalVector< T, BUFFER_CAPACITY >::Master", "struct_grappa_1_1_global_vector_1_1_master.html", null ],
     [ "Grappa::impl::MessageBase", "class_grappa_1_1impl_1_1_message_base.html", [
       [ "Grappa::Message< T >", "class_grappa_1_1_message.html", [
         [ "Grappa::PoolMessage< T >", "class_grappa_1_1_pool_message.html", null ],
@@ -121,14 +128,15 @@ var hierarchy =
     [ "Grappa::impl::PrefetchEntry", "struct_grappa_1_1impl_1_1_prefetch_entry.html", null ],
     [ "Grappa::PrefetchingThreadQueue", "class_grappa_1_1_prefetching_thread_queue.html", null ],
     [ "Grappa::delegate::Promise< R >", "class_grappa_1_1delegate_1_1_promise.html", null ],
-    [ "Grappa::GlobalCounter::Proxy", "struct_grappa_1_1_global_counter_1_1_proxy.html", null ],
     [ "Grappa::GlobalVector< T, BUFFER_CAPACITY >::Proxy", "struct_grappa_1_1_global_vector_1_1_proxy.html", null ],
+    [ "Grappa::GlobalCounter::Proxy", "struct_grappa_1_1_global_counter_1_1_proxy.html", null ],
     [ "Grappa::GlobalHashMap< K, V >::Proxy", "struct_grappa_1_1_global_hash_map_1_1_proxy.html", null ],
     [ "Grappa::GlobalHashSet< K >::Proxy", "struct_grappa_1_1_global_hash_set_1_1_proxy.html", null ],
     [ "Grappa::impl::pull_entry_args< T >", "struct_grappa_1_1impl_1_1pull__entry__args.html", null ],
     [ "Grappa::impl::push_entry_args< T >", "struct_grappa_1_1impl_1_1push__entry__args.html", null ],
     [ "PushBuffer< T, BUFSIZE, NBUFS >", "struct_push_buffer.html", null ],
     [ "Grappa::impl::QueueEntry< T >", "struct_grappa_1_1impl_1_1_queue_entry.html", null ],
+    [ "Grappa::GlobalVector< T, BUFFER_CAPACITY >::Range", "struct_grappa_1_1_global_vector_1_1_range.html", null ],
     [ "range_t", "structrange__t.html", null ],
     [ "Grappa::impl::RDMAAggregator", "class_grappa_1_1impl_1_1_r_d_m_a_aggregator.html", null ],
     [ "Grappa::impl::RDMABuffer", "class_grappa_1_1impl_1_1_r_d_m_a_buffer.html", null ],
@@ -136,8 +144,8 @@ var hierarchy =
     [ "Grappa::impl::ReceiveBufferInfo", "struct_grappa_1_1impl_1_1_receive_buffer_info.html", null ],
     [ "Grappa::impl::Reduction< T >", "struct_grappa_1_1impl_1_1_reduction.html", null ],
     [ "remote_task_spawn_args< A0, A1, A2 >", "structremote__task__spawn__args.html", null ],
-    [ "IncoherentAcquirer< T >::RequestArgs", "struct_incoherent_acquirer_1_1_request_args.html", null ],
     [ "IncoherentReleaser< T >::RequestArgs", "struct_incoherent_releaser_1_1_request_args.html", null ],
+    [ "IncoherentAcquirer< T >::RequestArgs", "struct_incoherent_acquirer_1_1_request_args.html", null ],
     [ "Grappa::GlobalHashSet< K >::ResultEntry", "struct_grappa_1_1_global_hash_set_1_1_result_entry.html", null ],
     [ "Grappa::GlobalHashMap< K, V >::ResultEntry", "struct_grappa_1_1_global_hash_map_1_1_result_entry.html", null ],
     [ "Grappa::impl::ReuseList< T >", "class_grappa_1_1impl_1_1_reuse_list.html", null ],
@@ -169,6 +177,11 @@ var hierarchy =
     [ "Grappa::impl::TaskManagerMetrics", "class_grappa_1_1impl_1_1_task_manager_metrics.html", null ],
     [ "Grappa::ThreadQueue", "class_grappa_1_1_thread_queue.html", null ],
     [ "TotalMetric", "class_total_metric.html", null ],
+    [ "Grappa::TupleGraph", "class_grappa_1_1_tuple_graph.html", null ],
+    [ "Grappa::VertexBase", "struct_grappa_1_1_vertex_base.html", [
+      [ "Grappa::Vertex< T, HeapData >", "struct_grappa_1_1_vertex.html", null ],
+      [ "Grappa::Vertex< T, true >", "struct_grappa_1_1_vertex_3_01_t_00_01true_01_4.html", null ]
+    ] ],
     [ "Grappa::Worker", "class_grappa_1_1_worker.html", [
       [ "Grappa::SuspendedDelegate", "class_grappa_1_1_suspended_delegate.html", null ]
     ] ]

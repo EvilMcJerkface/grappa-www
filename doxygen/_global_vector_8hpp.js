@@ -2,7 +2,7 @@ var _global_vector_8hpp =
 [
     [ "Master", "struct_grappa_1_1_global_vector_1_1_master.html", "struct_grappa_1_1_global_vector_1_1_master" ],
     [ "Proxy", "struct_grappa_1_1_global_vector_1_1_proxy.html", "struct_grappa_1_1_global_vector_1_1_proxy" ],
-    [ "forall", "_global_vector_8hpp.html#gadc40fa4e4173f07964e0c2b97ea7f10e", null ],
+    [ "Range", "struct_grappa_1_1_global_vector_1_1_range.html", "struct_grappa_1_1_global_vector_1_1_range" ],
     [ "GRAPPA_DECLARE_METRIC", "_global_vector_8hpp.html#a8e18c9a81e65acce44f0a2445d9a63a1", null ],
     [ "GRAPPA_DECLARE_METRIC", "_global_vector_8hpp.html#a4fb48a07a74d08bda0f25ad46ce8d661", null ],
     [ "GRAPPA_DECLARE_METRIC", "_global_vector_8hpp.html#afc7a7e68f541b6fb3e1b1d555faac66f", null ],

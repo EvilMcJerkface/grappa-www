@@ -64,6 +64,8 @@ var files =
     [ "GlobalQueue.hpp", "_global_queue_8hpp.html", "_global_queue_8hpp" ],
     [ "GlobalVector.cpp", "_global_vector_8cpp.html", "_global_vector_8cpp" ],
     [ "GlobalVector.hpp", "_global_vector_8hpp.html", "_global_vector_8hpp" ],
+    [ "Graph.cpp", "_graph_8cpp.html", null ],
+    [ "Graph.hpp", "_graph_8hpp.html", "_graph_8hpp" ],
     [ "Grappa.cpp", "_grappa_8cpp.html", "_grappa_8cpp" ],
     [ "Grappa.hpp", "_grappa_8hpp.html", "_grappa_8hpp" ],
     [ "HistogramMetric.cpp", "_histogram_metric_8cpp.html", "_histogram_metric_8cpp" ],
@@ -82,6 +84,7 @@ var files =
       [ "IncoherentReleaser", "class_incoherent_releaser.html", "class_incoherent_releaser" ],
       [ "RequestArgs", "struct_incoherent_releaser_1_1_request_args.html", "struct_incoherent_releaser_1_1_request_args" ]
     ] ],
+    [ "KroneckerGenerator.cpp", "_kronecker_generator_8cpp.html", null ],
     [ "LocaleSharedMemory.cpp", "_locale_shared_memory_8cpp.html", "_locale_shared_memory_8cpp" ],
     [ "LocaleSharedMemory.hpp", "_locale_shared_memory_8hpp.html", "_locale_shared_memory_8hpp" ],
     [ "MaxMetric.cpp", "_max_metric_8cpp.html", null ],
@@ -152,6 +155,10 @@ var files =
     [ "ThreadQueue.hpp", "_thread_queue_8hpp.html", "_thread_queue_8hpp" ],
     [ "Timestamp.cpp", "_timestamp_8cpp.html", "_timestamp_8cpp" ],
     [ "Timestamp.hpp", "_timestamp_8hpp.html", "_timestamp_8hpp" ],
+    [ "TupleGraph.hpp", "_tuple_graph_8hpp.html", [
+      [ "TupleGraph", "class_grappa_1_1_tuple_graph.html", "class_grappa_1_1_tuple_graph" ],
+      [ "Edge", "struct_grappa_1_1_tuple_graph_1_1_edge.html", "struct_grappa_1_1_tuple_graph_1_1_edge" ]
+    ] ],
     [ "Worker.cpp", "_worker_8cpp.html", "_worker_8cpp" ],
     [ "Worker.hpp", "_worker_8hpp.html", "_worker_8hpp" ]
 ];

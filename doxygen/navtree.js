@@ -1,6 +1,7 @@
 var NAVTREE =
 [
   [ "Grappa", "index.html", [
+    [ "Grappa: Developer Documentation", "index.html", null ],
     [ "Todo List", "todo.html", null ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Modules", "modules.html", "modules" ],
@@ -8,7 +9,7 @@ var NAVTREE =
       [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", "namespacemembers_dup" ],
-        [ "Functions", "namespacemembers_func.html", null ],
+        [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ],
         [ "Variables", "namespacemembers_vars.html", null ],
         [ "Typedefs", "namespacemembers_type.html", null ],
         [ "Enumerations", "namespacemembers_enum.html", null ],
@@ -44,18 +45,18 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_2sync_2sampa_2grappa-a_2system_2_array_8hpp-example.html",
-"_context_switch_rate__bench_8cpp.html#a2e4d822891551c616da0952000be496e",
-"_global_vector_8hpp.html",
-"_mutex_8hpp_source.html",
-"_suspended_delegate_8hpp_source.html",
-"class_cache_r_w.html#a65529192e861d785f3ef0e09ccd78573",
-"class_grappa_1_1_histogram_metric.html#a1a1ebc09b891b0088d8dd0cdcf4ca0ae",
-"class_grappa_1_1impl_1_1_global_queue.html#a5cf8aea18c056d779dd724d8ba8ba882",
-"class_i_a_metrics.html",
-"group___communication.html#ga34c5d1420871b47ba6ad1a060804e802",
-"group___utility.html#ga62c269fea157d784f7076e4d0f1039e1",
-"struct_incoherent_acquirer_1_1_request_args.html"
+"_2sync_2sampa_2grappa-b_2system_2_array_8hpp-example.html",
+"_context_switch_rate__bench_8cpp.html#a21ba43424efe9e40d3f00be72e118ebc",
+"_global_vector_8cpp_source.html",
+"_metrics_8hpp.html#gaca7bf381c18a5f791155eb129c726fe7",
+"_steal_queue_8hpp.html",
+"class_cache_r_o.html#a4164433340f21137d06be4c15a722880",
+"class_grappa_1_1_global_vector.html#a528b5f438474d2c1c3eea793170ec157",
+"class_grappa_1_1_worker.html#a28ef03ba0ed951eadfd451e269ca08f5",
+"class_grappa_1_1impl_1_1_tasking_scheduler.html#ab4d7f28b308af79c4156d10f365b8fba",
+"globals_~.html",
+"group___utility.html#ga03b16a4beb0230a08d5a3736bca1d6cb",
+"struct_grappa_1_1_graph.html#a61b08ad9c7428be2f8b7dbc91d619ec2"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
@@ -168,7 +169,7 @@ function createIndent(o,domNode,node,level)
     span.style.display = 'inline-block';
     span.style.width   = 16*(level+1)+'px';
     span.style.height  = '22px';
-    span.innerHTML = '&nbsp;';
+    span.innerHTML = '&#160;';
     domNode.appendChild(span);
   } 
 }
