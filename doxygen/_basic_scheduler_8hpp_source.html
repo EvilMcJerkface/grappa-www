@@ -208,7 +208,7 @@ $(document).ready(function(){initNavTree('_basic_scheduler_8hpp_source.html','')
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <span class="keywordtype">bool</span> gotRescheduled = (next == yieldedThr);</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    </div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    current_thread = next;</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    <a class="code" href="namespace_grappa_1_1impl.html#ae5545da40ea3039588827f0e63e8219e">impl::thread_context_switch</a>( yieldedThr, next, NULL);</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    impl::thread_context_switch( yieldedThr, next, NULL);</div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    </div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    <span class="keywordflow">return</span> gotRescheduled; <span class="comment">// 0=another ran; 1=me got rescheduled immediately</span></div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;}</div>
@@ -223,7 +223,7 @@ $(document).ready(function(){initNavTree('_basic_scheduler_8hpp_source.html','')
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <a class="code" href="class_grappa_1_1_worker.html">Worker</a> * next = nextCoroutine( );</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    </div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    current_thread = next;</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <a class="code" href="namespace_grappa_1_1impl.html#ae5545da40ea3039588827f0e63e8219e">impl::thread_context_switch</a>( yieldedThr, next, NULL);</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    impl::thread_context_switch( yieldedThr, next, NULL);</div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;}</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;</div>
 <div class="line"><a name="l00168"></a><span class="lineno"><a class="line" href="class_grappa_1_1_basic_scheduler.html#a2bd6690f54d5ac9086268a7f969ad432">  168</a></span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="class_grappa_1_1_basic_scheduler.html#a2bd6690f54d5ac9086268a7f969ad432">BasicScheduler::thread_wake</a>( <a class="code" href="class_grappa_1_1_worker.html">Worker</a> * next ) {</div>
@@ -244,7 +244,7 @@ $(document).ready(function(){initNavTree('_basic_scheduler_8hpp_source.html','')
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <a class="code" href="class_grappa_1_1_basic_scheduler.html#ad5238c1226228ddcc24012e1a72f5b3a">ready</a>( yieldedThr );</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    </div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    current_thread = next;</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    <a class="code" href="namespace_grappa_1_1impl.html#ae5545da40ea3039588827f0e63e8219e">impl::thread_context_switch</a>( yieldedThr, next, NULL);</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    impl::thread_context_switch( yieldedThr, next, NULL);</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;}</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;</div>
 <div class="line"><a name="l00195"></a><span class="lineno"><a class="line" href="class_grappa_1_1_basic_scheduler.html#a68af84206fbd82dc904cc6e806383667">  195</a></span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="class_grappa_1_1_basic_scheduler.html#a68af84206fbd82dc904cc6e806383667">BasicScheduler::thread_suspend_wake</a>( <a class="code" href="class_grappa_1_1_worker.html">Worker</a> *next ) {</div>
@@ -255,7 +255,7 @@ $(document).ready(function(){initNavTree('_basic_scheduler_8hpp_source.html','')
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <a class="code" href="class_grappa_1_1_worker.html">Worker</a> * yieldedThr = current_thread;</div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    </div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    current_thread = next;</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    <a class="code" href="namespace_grappa_1_1impl.html#ae5545da40ea3039588827f0e63e8219e">impl::thread_context_switch</a>( yieldedThr, next, NULL);</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    impl::thread_context_switch( yieldedThr, next, NULL);</div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;}</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;</div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    </div>
@@ -263,7 +263,7 @@ $(document).ready(function(){initNavTree('_basic_scheduler_8hpp_source.html','')
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;  <a class="code" href="class_grappa_1_1_worker.html">Worker</a> * exitedThr = current_thread;</div>
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;  current_thread = master;</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;  <a class="code" href="namespace_grappa_1_1impl.html#ae5545da40ea3039588827f0e63e8219e">impl::thread_context_switch</a>( exitedThr, master, (<span class="keywordtype">void</span> *)exitedThr);</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;  impl::thread_context_switch( exitedThr, master, (<span class="keywordtype">void</span> *)exitedThr);</div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;}</div>
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;</div>
 <div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;</div>
@@ -273,7 +273,6 @@ $(document).ready(function(){initNavTree('_basic_scheduler_8hpp_source.html','')
 <div class="ttc" id="namespace_grappa_html_af14b6d972703cb9a89e4160362cf0d98"><div class="ttname"><a href="namespace_grappa.html#af14b6d972703cb9a89e4160362cf0d98">Grappa::Timestamp</a></div><div class="ttdeci">int64_t Timestamp</div><div class="ttdoc">Timestamps are 64-bit signed integers. </div><div class="ttdef"><b>Definition:</b> <a href="_timestamp_8hpp_source.html#l00041">Timestamp.hpp:41</a></div></div>
 <div class="ttc" id="class_grappa_1_1_basic_scheduler_html_ac520270380b4aca02b3f35cf2f4b861c"><div class="ttname"><a href="class_grappa_1_1_basic_scheduler.html#ac520270380b4aca02b3f35cf2f4b861c">Grappa::BasicScheduler::thread_wait</a></div><div class="ttdeci">Worker * thread_wait(void **result)</div><div class="ttdef"><b>Definition:</b> <a href="_basic_scheduler_8cpp_source.html#l00034">BasicScheduler.cpp:34</a></div></div>
 <div class="ttc" id="class_grappa_1_1_thread_queue_html_a40835d056ec0eee8e6b82c869e48bc54"><div class="ttname"><a href="class_grappa_1_1_thread_queue.html#a40835d056ec0eee8e6b82c869e48bc54">Grappa::ThreadQueue::empty</a></div><div class="ttdeci">bool empty()</div><div class="ttdef"><b>Definition:</b> <a href="_thread_queue_8hpp_source.html#l00062">ThreadQueue.hpp:62</a></div></div>
-<div class="ttc" id="namespace_grappa_1_1impl_html_ae5545da40ea3039588827f0e63e8219e"><div class="ttname"><a href="namespace_grappa_1_1impl.html#ae5545da40ea3039588827f0e63e8219e">Grappa::impl::thread_context_switch</a></div><div class="ttdeci">void * thread_context_switch(Worker *running, Worker *next, void *val)</div><div class="ttdoc">Perform a context switch to another Worker. </div><div class="ttdef"><b>Definition:</b> <a href="_worker_8hpp_source.html#l00252">Worker.hpp:252</a></div></div>
 <div class="ttc" id="class_grappa_1_1_basic_scheduler_html_ac85c5d642323a382822ab1dbdc03d622"><div class="ttname"><a href="class_grappa_1_1_basic_scheduler.html#ac85c5d642323a382822ab1dbdc03d622">Grappa::BasicScheduler::run</a></div><div class="ttdeci">void run()</div><div class="ttdoc">run threads until all exit </div><div class="ttdef"><b>Definition:</b> <a href="_basic_scheduler_8cpp_source.html#l00030">BasicScheduler.cpp:30</a></div></div>
 <div class="ttc" id="class_grappa_1_1_basic_scheduler_html"><div class="ttname"><a href="class_grappa_1_1_basic_scheduler.html">Grappa::BasicScheduler</a></div><div class="ttdoc">A basic Worker Scheduler with just a readyQ and periodicQ. </div><div class="ttdef"><b>Definition:</b> <a href="_basic_scheduler_8hpp_source.html#l00036">BasicScheduler.hpp:36</a></div></div>
 <div class="ttc" id="class_grappa_1_1_worker_html"><div class="ttname"><a href="class_grappa_1_1_worker.html">Grappa::Worker</a></div><div class="ttdoc">Worker/coroutine. </div><div class="ttdef"><b>Definition:</b> <a href="_worker_8hpp_source.html#l00059">Worker.hpp:59</a></div></div>

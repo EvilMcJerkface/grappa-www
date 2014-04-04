@@ -1,8 +1,5 @@
 var _tasking_scheduler_8hpp =
 [
-    [ "TaskingScheduler", "class_grappa_1_1impl_1_1_tasking_scheduler.html", "class_grappa_1_1impl_1_1_tasking_scheduler" ],
-    [ "TaskingSchedulerMetrics", "class_grappa_1_1impl_1_1_tasking_scheduler_1_1_tasking_scheduler_metrics.html", "class_grappa_1_1impl_1_1_tasking_scheduler_1_1_tasking_scheduler_metrics" ],
-    [ "task_worker_args", "struct_grappa_1_1impl_1_1task__worker__args.html", "struct_grappa_1_1impl_1_1task__worker__args" ],
     [ "current_worker", "_tasking_scheduler_8hpp.html#gad7f339c8363a6361960ecbc10d9c7a33", null ],
     [ "DECLARE_bool", "_tasking_scheduler_8hpp.html#aaa9eba5226fb60ee67dc0a518b72cbbc", null ],
     [ "DECLARE_bool", "_tasking_scheduler_8hpp.html#a1b0d07e6acbe74f682cce5f88a36d8b0", null ],
@@ -13,6 +10,5 @@ var _tasking_scheduler_8hpp =
     [ "GRAPPA_DECLARE_METRIC", "_tasking_scheduler_8hpp.html#a9e8715259ff0b3db8bbb0e2491d9a207", null ],
     [ "GRAPPA_DECLARE_METRIC", "_tasking_scheduler_8hpp.html#ad1594d06b295bf7fd89b9c81043e9649", null ],
     [ "idle_flush_aggregator", "_tasking_scheduler_8hpp.html#a9bdded3d492ba033be3bdb8dbc2dee7f", null ],
-    [ "idle_flush_rdma_aggregator", "_tasking_scheduler_8hpp.html#ga679f2e9d88a2d7289dd9fc098f2dc20c", null ],
     [ "sample_all", "_tasking_scheduler_8hpp.html#a3ab8a511598f810695a65e4cb2472d92", null ]
 ];

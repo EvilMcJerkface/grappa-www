@@ -7,7 +7,6 @@ var _r_d_m_a_aggregator_8cpp =
     [ "DEFINE_int64", "_r_d_m_a_aggregator_8cpp.html#a7dae7220d2da98663f008568e2e5a72b", null ],
     [ "DEFINE_int64", "_r_d_m_a_aggregator_8cpp.html#a6a9bf047f653df34dee6f55a2b356721", null ],
     [ "DEFINE_string", "_r_d_m_a_aggregator_8cpp.html#a88ea963ad7e114cddb3ab83c6c20e262", null ],
-    [ "failure_function", "_r_d_m_a_aggregator_8cpp.html#af8df3539185221e50200be47e8c0d2a1", null ],
     [ "GRAPPA_DEFINE_METRIC", "_r_d_m_a_aggregator_8cpp.html#a895ebbc6d6820edee40801446690049f", null ],
     [ "GRAPPA_DEFINE_METRIC", "_r_d_m_a_aggregator_8cpp.html#a6f29a226b62d41a409d6277886334f6c", null ],
     [ "GRAPPA_DEFINE_METRIC", "_r_d_m_a_aggregator_8cpp.html#a1fd7975eefbb27833c2828d8da971051", null ],
@@ -47,7 +46,5 @@ var _r_d_m_a_aggregator_8cpp =
     [ "GRAPPA_DEFINE_METRIC", "_r_d_m_a_aggregator_8cpp.html#a14f7dfdc57e9edd14987db1dfa8ef156", null ],
     [ "GRAPPA_DEFINE_METRIC", "_r_d_m_a_aggregator_8cpp.html#a66ff43accf4e55edbbe94e8414687105", null ],
     [ "GRAPPA_DEFINE_METRIC", "_r_d_m_a_aggregator_8cpp.html#aa0776d29afcb4e0e1349f69b485b99b8", null ],
-    [ "idle_flush_rdma_aggregator", "_r_d_m_a_aggregator_8cpp.html#ga679f2e9d88a2d7289dd9fc098f2dc20c", null ],
-    [ "global_rdma_aggregator", "_r_d_m_a_aggregator_8cpp.html#gabaaa25348a6a38ef6d8ee6f230f86031", null ],
     [ "Grappa_done_flag", "_r_d_m_a_aggregator_8cpp.html#ab82356a8cfd1f728643a8e5951f29e1d", null ]
 ];

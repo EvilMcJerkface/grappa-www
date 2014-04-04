@@ -32,7 +32,6 @@ var common_8hpp =
       [ "Unbound", "common_8hpp.html#ac6ade1fca200baa13c39fe78703897b9aedac80248b7bf68ccfaa9c78bfb81c32", null ]
     ] ],
     [ "blockDist", "common_8hpp.html#a23bb0722a5c796da7b6f1cde3c344851", null ],
-    [ "CheckNull", "common_8hpp.html#ad0045544506f1fdadeb730ae88e1ec66", null ],
     [ "fast_rand", "common_8hpp.html#ae4232dccafa4e46139b8e86e7eb2c79c", null ],
     [ "fast_srand", "common_8hpp.html#a8caee38dd990c5a1d30deeae7cdc5a37", null ],
     [ "Grappa_magic_identity_function", "common_8hpp.html#a8b17e4dfe81cc38e12681baa6c268bac", null ],

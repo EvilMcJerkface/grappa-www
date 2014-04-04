@@ -13,6 +13,5 @@ var _global_completion_event_8hpp =
     [ "spawn", "_global_completion_event_8hpp.html#ga870395edc072b708200abb3d2e58bd04", null ],
     [ "waiting_to_send", "_global_completion_event_8hpp.html#a0bc25ad8bc1fde1cc1f2323f6bf3ee47", null ],
     [ "completes_to_send", "_global_completion_event_8hpp.html#a4bb4885d2af55406e49ca0b1a11994b7", null ],
-    [ "local_gce", "_global_completion_event_8hpp.html#a22c37762d0cf6b184abf20ab0e122b70", null ],
     [ "target", "_global_completion_event_8hpp.html#a3525a4b506b239918f69d5880f19638a", null ]
 ];

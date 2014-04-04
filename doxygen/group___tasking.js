@@ -1,6 +1,5 @@
 var group___tasking =
 [
-    [ "impl", "namespace_grappa_1_1impl.html", null ],
     [ "privateTask", "group___tasking.html#gaf80429bfcdf0167257fdc0fcc02842fb", null ],
     [ "publicTask", "group___tasking.html#gac76febfd95f119e47f8d2b77ba779669", null ],
     [ "run", "group___tasking.html#ga1fa04570855ffc3d360a5264f950eb24", null ],

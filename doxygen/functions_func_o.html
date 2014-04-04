@@ -58,7 +58,6 @@
       <li class="current"><a href="functions_func.html"><span>Functions</span></a></li>
       <li><a href="functions_vars.html"><span>Variables</span></a></li>
       <li><a href="functions_type.html"><span>Typedefs</span></a></li>
-      <li><a href="functions_enum.html"><span>Enumerations</span></a></li>
       <li><a href="functions_eval.html"><span>Enumerator</span></a></li>
       <li><a href="functions_rela.html"><span>Related&#160;Functions</span></a></li>
     </ul>
@@ -115,12 +114,6 @@ $(document).ready(function(){initNavTree('functions_func_o.html','');});
 <li>on_empty()
 : <a class="el" href="group___communication.html#ga8288a81586e3cec5992800452960e06b">Grappa::SharedMessagePool</a>
 </li>
-<li>on_stolen()
-: <a class="el" href="class_grappa_1_1impl_1_1_task.html#a5e7fce9850d9c4356a43b3b7bedef563">Grappa::impl::Task</a>
-</li>
-<li>onWorkerStart()
-: <a class="el" href="class_grappa_1_1impl_1_1_tasking_scheduler.html#a158f61fdedaedf2f008978fcc17417f2">Grappa::impl::TaskingScheduler</a>
-</li>
 <li>operator const T *()
 : <a class="el" href="class_cache_r_o.html#a4164433340f21137d06be4c15a722880">CacheRO&lt; T, Allocator, Acquirer, Releaser &gt;</a>
 </li>
@@ -135,7 +128,6 @@ $(document).ready(function(){initNavTree('functions_func_o.html','');});
 </li>
 <li>operator T()
 : <a class="el" href="class_grappa_1_1_max_metric.html#a10da4d20fbadd0859d971cb69f4d00a3">Grappa::MaxMetric&lt; T &gt;</a>
-, <a class="el" href="class_grappa_1_1_simple_metric.html#abd4bdb4f3a86295957ea197add564bbc">Grappa::SimpleMetric&lt; T &gt;</a>
 , <a class="el" href="class_grappa_1_1_summarizing_metric.html#ab2cbd7ff4a6602af63c0cbcbf0bddfa4">Grappa::SummarizingMetric&lt; T &gt;</a>
 </li>
 <li>operator T *()
@@ -157,22 +149,18 @@ $(document).ready(function(){initNavTree('functions_func_o.html','');});
 </li>
 <li>operator++()
 : <a class="el" href="class_global_address.html#ac50b9d19b3bb6bd44def4b65e70a645d">GlobalAddress&lt; T &gt;</a>
-, <a class="el" href="class_grappa_1_1_simple_metric.html#a0a926a3eb271bf9260dfeb3d1ea53ecc">Grappa::SimpleMetric&lt; T &gt;</a>
 , <a class="el" href="class_grappa_1_1_summarizing_metric.html#a720e6dbcb5208a4fdffb470a4dea377b">Grappa::SummarizingMetric&lt; T &gt;</a>
 </li>
 <li>operator+=()
 : <a class="el" href="class_global_address.html#a2a0e5c3bad5fe60e4f94d9f935c9de91">GlobalAddress&lt; T &gt;</a>
-, <a class="el" href="class_grappa_1_1_simple_metric.html#aa1049f75c864d2f102044df927dff3e9">Grappa::SimpleMetric&lt; T &gt;</a>
 , <a class="el" href="class_grappa_1_1_summarizing_metric.html#afd12f1164c9e74042f9aeb8d2fe0b422">Grappa::SummarizingMetric&lt; T &gt;</a>
 </li>
 <li>operator--()
 : <a class="el" href="class_global_address.html#a560ac754137bba33b8be64d1b0f1d98f">GlobalAddress&lt; T &gt;</a>
-, <a class="el" href="class_grappa_1_1_simple_metric.html#a6ae0548f30a47ff970699995c3747b77">Grappa::SimpleMetric&lt; T &gt;</a>
-, <a class="el" href="class_grappa_1_1_summarizing_metric.html#ad8702953b7e9efedb71d2eebfe3b3d5f">Grappa::SummarizingMetric&lt; T &gt;</a>
+, <a class="el" href="class_grappa_1_1_summarizing_metric.html#a30a35a9d716ec20ef0da862bb7fb71d2">Grappa::SummarizingMetric&lt; T &gt;</a>
 </li>
 <li>operator-=()
 : <a class="el" href="class_global_address.html#a5252440cd909dea26061211675da62da">GlobalAddress&lt; T &gt;</a>
-, <a class="el" href="class_grappa_1_1_simple_metric.html#a5bd13ba6f53defe719d9e738815eaabc">Grappa::SimpleMetric&lt; T &gt;</a>
 , <a class="el" href="class_grappa_1_1_summarizing_metric.html#a088ae60b9ad368275a0caf432da70217">Grappa::SummarizingMetric&lt; T &gt;</a>
 </li>
 <li>operator-&gt;()
@@ -188,10 +176,8 @@ $(document).ready(function(){initNavTree('functions_func_o.html','');});
 </li>
 <li>operator=()
 : <a class="el" href="class_grappa_1_1_histogram_metric.html#af0a4772d05c4d150ca1916260dd9418b">Grappa::HistogramMetric</a>
-, <a class="el" href="class_grappa_1_1impl_1_1_message_base.html#a097c8ed1c7d115668ed203463999b226">Grappa::impl::MessageBase</a>
 , <a class="el" href="class_grappa_1_1_message.html#a9ef5e7722c5d5349119e41804c983579">Grappa::Message&lt; T &gt;</a>
-, <a class="el" href="class_grappa_1_1_payload_message.html#a7e1421b3e11609cce5eafd755de78872">Grappa::PayloadMessage&lt; T &gt;</a>
-, <a class="el" href="class_grappa_1_1_simple_metric.html#a01da199e3a1e0e92ea6052b929b55438">Grappa::SimpleMetric&lt; T &gt;</a>
+, <a class="el" href="class_grappa_1_1_payload_message.html#a6031ff0528c6ea61075ce674558a51bd">Grappa::PayloadMessage&lt; T &gt;</a>
 , <a class="el" href="class_grappa_1_1_summarizing_metric.html#a3dd3957eeaa0ae2d8b388746d764051b">Grappa::SummarizingMetric&lt; T &gt;</a>
 </li>
 <li>operator==()

@@ -1,6 +1,5 @@
 var group___containers =
 [
-    [ "impl", "namespace_grappa_1_1impl.html", null ],
     [ "util", "namespace_grappa_1_1util.html", null ],
     [ "SuspendedDelegateQueue", "class_grappa_1_1_suspended_delegate_queue.html", [
       [ "SuspendedDelegateQueue", "class_grappa_1_1_suspended_delegate_queue.html#ae11b9ca3f0475ee225d52ca00b9d6fb1", null ],

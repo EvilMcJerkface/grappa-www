@@ -1,6 +1,5 @@
 var group___loops =
 [
-    [ "impl", "namespace_grappa_1_1impl.html", null ],
     [ "FORALL_HERE_OVERLOAD", "group___loops.html#ga26d8f38beec11c2ac6ca0dcb21d61535", null ],
     [ "FORALL_OVERLOAD", "group___loops.html#ga496ac706b889a39151f5f230e1293c1e", null ],
     [ "cores_with_elements", "group___loops.html#gae0930fb0b5ce9c40ceb40f26e5c3be4a", null ],

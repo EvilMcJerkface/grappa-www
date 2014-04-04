@@ -98,9 +98,6 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespace_grappa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_grappa.html">Grappa</a></td></tr>
 <tr class="memdesc:namespace_grappa"><td class="mdescLeft">&#160;</td><td class="mdescRight">this core's base pointer <br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespace_grappa_1_1impl"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_grappa_1_1impl.html">Grappa::impl</a></td></tr>
-<tr class="memdesc:namespace_grappa_1_1impl"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal messaging functions. <br/></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
@@ -111,37 +108,12 @@ Macros</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:af5983c8e7e25d73aa0b47a6f607d5c98"><td class="memItemLeft" align="right" valign="top">typedef uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_worker_8hpp.html#af5983c8e7e25d73aa0b47a6f607d5c98">threadid_t</a></td></tr>
 <tr class="separator:af5983c8e7e25d73aa0b47a6f607d5c98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad06292aed63102f966fc5c605dc6bf70"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_grappa_1_1impl.html#ad06292aed63102f966fc5c605dc6bf70">Grappa::impl::thread_func</a> )(Worker *, void *arg)</td></tr>
-<tr class="separator:ad06292aed63102f966fc5c605dc6bf70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a8b59285853a3ab08c27787c3ee85ede6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_worker_8hpp.html#a8b59285853a3ab08c27787c3ee85ede6">DECLARE_int64</a> (stack_size)</td></tr>
 <tr class="memdesc:a8b59285853a3ab08c27787c3ee85ede6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size in bytes of the stack allocated for every Worker.  <a href="#a8b59285853a3ab08c27787c3ee85ede6">More...</a><br/></td></tr>
 <tr class="separator:a8b59285853a3ab08c27787c3ee85ede6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a750e2c1473eb816365adf2ba68b4d9ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_grappa_1_1impl.html#a750e2c1473eb816365adf2ba68b4d9ad">Grappa::impl::checked_mprotect</a> (void *addr, size_t len, int prot)</td></tr>
-<tr class="separator:a750e2c1473eb816365adf2ba68b4d9ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa03601462f7ceea666b0ebb078b04d7f"><td class="memItemLeft" align="right" valign="top">Worker *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_grappa_1_1impl.html#aa03601462f7ceea666b0ebb078b04d7f">Grappa::impl::convert_to_master</a> (Worker *me=NULL)</td></tr>
-<tr class="memdesc:aa03601462f7ceea666b0ebb078b04d7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turns the current (system) thread into a <a class="el" href="namespace_grappa.html" title="this core&#39;s base pointer ">Grappa</a> <a class="el" href="class_grappa_1_1_worker.html" title="Worker/coroutine. ">Worker</a>.  <a href="#aa03601462f7ceea666b0ebb078b04d7f">More...</a><br/></td></tr>
-<tr class="separator:aa03601462f7ceea666b0ebb078b04d7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d0dc340c5172c46fb7c9961238ed5a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_grappa_1_1impl.html#a3d0dc340c5172c46fb7c9961238ed5a3">Grappa::impl::coro_spawn</a> (Worker *me, Worker *c, <a class="el" href="stack_8h.html#a9eea44d15586a7cea9dc620c83ea848e">coro_func</a> f, size_t ssize)</td></tr>
-<tr class="memdesc:a3d0dc340c5172c46fb7c9961238ed5a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">spawn a new coroutine, creating a stack and everything, but doesn't run until scheduled  <a href="#a3d0dc340c5172c46fb7c9961238ed5a3">More...</a><br/></td></tr>
-<tr class="separator:a3d0dc340c5172c46fb7c9961238ed5a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2df7c1fbd663c1ee33488f72b0e69ac8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_grappa_1_1impl.html#a2df7c1fbd663c1ee33488f72b0e69ac8">Grappa::impl::thread_exit</a> (Worker *me, void *retval)</td></tr>
-<tr class="memdesc:a2df7c1fbd663c1ee33488f72b0e69ac8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a <a class="el" href="class_grappa_1_1_worker.html" title="Worker/coroutine. ">Worker</a> completes its function.  <a href="#a2df7c1fbd663c1ee33488f72b0e69ac8">More...</a><br/></td></tr>
-<tr class="separator:a2df7c1fbd663c1ee33488f72b0e69ac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0197dd7d1768b7c39550c402f306a1c7"><td class="memItemLeft" align="right" valign="top">Worker *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_grappa_1_1impl.html#a0197dd7d1768b7c39550c402f306a1c7">Grappa::impl::worker_spawn</a> (Worker *me, Scheduler *sched, thread_func f, void *arg)</td></tr>
-<tr class="memdesc:a0197dd7d1768b7c39550c402f306a1c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spawn a new <a class="el" href="class_grappa_1_1_worker.html" title="Worker/coroutine. ">Worker</a> belonging to the <a class="el" href="class_grappa_1_1_scheduler.html">Scheduler</a>.  <a href="#a0197dd7d1768b7c39550c402f306a1c7">More...</a><br/></td></tr>
-<tr class="separator:a0197dd7d1768b7c39550c402f306a1c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af840ba713d8e71c6f056de1575bef46d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_grappa_1_1impl.html#af840ba713d8e71c6f056de1575bef46d">Grappa::impl::destroy_coro</a> (Worker *c)</td></tr>
-<tr class="memdesc:af840ba713d8e71c6f056de1575bef46d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tear down a coroutine.  <a href="#af840ba713d8e71c6f056de1575bef46d">More...</a><br/></td></tr>
-<tr class="separator:af840ba713d8e71c6f056de1575bef46d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c3d26fe5daeff68067799e44a8f0098"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_grappa_1_1impl.html#a1c3d26fe5daeff68067799e44a8f0098">Grappa::impl::destroy_thread</a> (Worker *thr)</td></tr>
-<tr class="memdesc:a1c3d26fe5daeff68067799e44a8f0098"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the thread.  <a href="#a1c3d26fe5daeff68067799e44a8f0098">More...</a><br/></td></tr>
-<tr class="separator:a1c3d26fe5daeff68067799e44a8f0098"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5545da40ea3039588827f0e63e8219e"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_grappa_1_1impl.html#ae5545da40ea3039588827f0e63e8219e">Grappa::impl::thread_context_switch</a> (Worker *<a class="el" href="_context_switch_rate__bench_8cpp.html#a36f7b6be7108281af77939ceaec42fd6">running</a>, Worker *next, void *val)</td></tr>
-<tr class="memdesc:ae5545da40ea3039588827f0e63e8219e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a context switch to another <a class="el" href="class_grappa_1_1_worker.html" title="Worker/coroutine. ">Worker</a>.  <a href="#ae5545da40ea3039588827f0e63e8219e">More...</a><br/></td></tr>
-<tr class="separator:ae5545da40ea3039588827f0e63e8219e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a6423a880df59733d2d9b509c7718d3a9"></a>

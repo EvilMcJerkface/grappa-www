@@ -1,7 +1,6 @@
 var _r_d_m_a_aggregator_8hpp =
 [
     [ "Core", "_r_d_m_a_aggregator_8hpp.html#a2d83baf92a7c7db4fe0db5a99b72ffc5", null ],
-    [ "__attribute__", "_r_d_m_a_aggregator_8hpp.html#ga7757e20af6978a994d4563df21a77a17", null ],
     [ "CoreData", "_r_d_m_a_aggregator_8hpp.html#a22231aef3cacd8708cf8835343628a76", null ],
     [ "DECLARE_int64", "_r_d_m_a_aggregator_8hpp.html#ab021ff4b9675cff7e8086c312d6802fc", null ],
     [ "DECLARE_int64", "_r_d_m_a_aggregator_8hpp.html#af8cb5e0002f3c4743081f468eab7b0d8", null ],
@@ -17,7 +16,6 @@ var _r_d_m_a_aggregator_8hpp =
     [ "GRAPPA_DECLARE_METRIC", "_r_d_m_a_aggregator_8hpp.html#a0608303aae8e6e24773dd83196dab2ab", null ],
     [ "GRAPPA_DECLARE_METRIC", "_r_d_m_a_aggregator_8hpp.html#aa16eebf3f839feb6cbe5999355c6f88e", null ],
     [ "GRAPPA_DECLARE_METRIC", "_r_d_m_a_aggregator_8hpp.html#aaa6ef2bb391da30242f149b79d861826", null ],
-    [ "__attribute__", "_r_d_m_a_aggregator_8hpp.html#gae2a821b53b060e607b7fc551fe65182c", null ],
     [ "earliest_message_for_locale_", "_r_d_m_a_aggregator_8hpp.html#aa057088d3d2f14c06c0e52386923a2b4", null ],
     [ "last_sent_", "_r_d_m_a_aggregator_8hpp.html#ae675f973f851989dd108fbeb053e5c67", null ],
     [ "locale_byte_count_", "_r_d_m_a_aggregator_8hpp.html#a1179eafab15a804f0895b2010eb121de", null ],

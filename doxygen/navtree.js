@@ -8,8 +8,8 @@ var NAVTREE =
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", "namespacemembers_dup" ],
-        [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ],
+        [ "All", "namespacemembers.html", null ],
+        [ "Functions", "namespacemembers_func.html", null ],
         [ "Variables", "namespacemembers_vars.html", null ],
         [ "Typedefs", "namespacemembers_type.html", null ],
         [ "Enumerations", "namespacemembers_enum.html", null ],
@@ -24,7 +24,6 @@ var NAVTREE =
         [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", "functions_vars" ],
         [ "Typedefs", "functions_type.html", null ],
-        [ "Enumerations", "functions_enum.html", null ],
         [ "Enumerator", "functions_eval.html", null ],
         [ "Related Functions", "functions_rela.html", null ]
       ] ]
@@ -46,17 +45,15 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_2sync_2sampa_2grappa-b_2system_2_array_8hpp-example.html",
-"_context_switch_rate__bench_8cpp.html#a21ba43424efe9e40d3f00be72e118ebc",
-"_global_vector_8cpp_source.html",
-"_metrics_8hpp.html#gaca7bf381c18a5f791155eb129c726fe7",
-"_steal_queue_8hpp.html",
-"class_cache_r_o.html#a4164433340f21137d06be4c15a722880",
-"class_grappa_1_1_global_vector.html#a528b5f438474d2c1c3eea793170ec157",
-"class_grappa_1_1_worker.html#a28ef03ba0ed951eadfd451e269ca08f5",
-"class_grappa_1_1impl_1_1_tasking_scheduler.html#ab4d7f28b308af79c4156d10f365b8fba",
-"globals_~.html",
-"group___utility.html#ga03b16a4beb0230a08d5a3736bca1d6cb",
-"struct_grappa_1_1_graph.html#a61b08ad9c7428be2f8b7dbc91d619ec2"
+"_context_switch_rate__bench_8cpp.html#a6458045beb37e6b53a9701e552bbda0b",
+"_grappa_8cpp.html#a65029a80e35445ff0f7f63baee7432be",
+"_pool_allocator_8hpp.html",
+"_tasking_8hpp_source.html",
+"class_global_address.html#af61199a6e4416236720a7f753c837600",
+"class_grappa_1_1_piggyback_stack.html#a6efd9ff11d95794f12602b976186ca56",
+"functions_func_k.html",
+"group___tasking.html#gaf80429bfcdf0167257fdc0fcc02842fb",
+"struct_push_buffer.html#ac230c1c24996bf0737fda170229fa104"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

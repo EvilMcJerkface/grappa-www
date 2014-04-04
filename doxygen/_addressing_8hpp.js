@@ -11,6 +11,5 @@ var _addressing_8hpp =
     [ "operator-", "_addressing_8hpp.html#gae2c394b001322028c94daf7c883c6173", null ],
     [ "operator-", "_addressing_8hpp.html#ga541389b4e363bf01b4b0e9ed7795a20a", null ],
     [ "operator-< char >", "_addressing_8hpp.html#ga02b83a095a10c1d97f9add500d9469b6", null ],
-    [ "operator<<", "_addressing_8hpp.html#ga35726ea1da86d2da1316d5879384f3ff", null ],
-    [ "global_memory_chunk_base", "_addressing_8hpp.html#a8738dd9e9b872eb7b23891e74b4820f2", null ]
+    [ "operator<<", "_addressing_8hpp.html#ga35726ea1da86d2da1316d5879384f3ff", null ]
 ];

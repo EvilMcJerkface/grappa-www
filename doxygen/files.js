@@ -96,9 +96,7 @@ var files =
     [ "MessageBaseImpl.hpp", "_message_base_impl_8hpp.html", "_message_base_impl_8hpp" ],
     [ "MessagePool.cpp", "_message_pool_8cpp.html", "_message_pool_8cpp" ],
     [ "MessagePool.hpp", "_message_pool_8hpp.html", "_message_pool_8hpp" ],
-    [ "MetricBase.hpp", "_metric_base_8hpp.html", [
-      [ "MetricBase", "class_grappa_1_1impl_1_1_metric_base.html", "class_grappa_1_1impl_1_1_metric_base" ]
-    ] ],
+    [ "MetricBase.hpp", "_metric_base_8hpp.html", null ],
     [ "Metrics.cpp", "_metrics_8cpp.html", "_metrics_8cpp" ],
     [ "Metrics.hpp", "_metrics_8hpp.html", "_metrics_8hpp" ],
     [ "MetricsTools.hpp", "_metrics_tools_8hpp.html", "_metrics_tools_8hpp" ],
@@ -117,14 +115,10 @@ var files =
     [ "Reducer.hpp", "_reducer_8hpp.html", [
       [ "AllReducer", "class_all_reducer.html", "class_all_reducer" ]
     ] ],
-    [ "ReuseList.hpp", "_reuse_list_8hpp.html", [
-      [ "ReuseList", "class_grappa_1_1impl_1_1_reuse_list.html", "class_grappa_1_1impl_1_1_reuse_list" ]
-    ] ],
+    [ "ReuseList.hpp", "_reuse_list_8hpp.html", null ],
     [ "ReuseMessage.hpp", "_reuse_message_8hpp.html", "_reuse_message_8hpp" ],
     [ "ReuseMessageList.hpp", "_reuse_message_list_8hpp.html", "_reuse_message_list_8hpp" ],
-    [ "ReusePool.hpp", "_reuse_pool_8hpp.html", [
-      [ "ReusePool", "class_grappa_1_1impl_1_1_reuse_pool.html", "class_grappa_1_1impl_1_1_reuse_pool" ]
-    ] ],
+    [ "ReusePool.hpp", "_reuse_pool_8hpp.html", null ],
     [ "Scheduler.hpp", "_scheduler_8hpp.html", [
       [ "Scheduler", "class_grappa_1_1_scheduler.html", "class_grappa_1_1_scheduler" ]
     ] ],
@@ -145,7 +139,7 @@ var files =
     ] ],
     [ "SummarizingMetricImpl.hpp", "_summarizing_metric_impl_8hpp.html", null ],
     [ "SuspendedDelegate.hpp", "_suspended_delegate_8hpp.html", "_suspended_delegate_8hpp" ],
-    [ "Synchronization.hpp", "_synchronization_8hpp.html", "_synchronization_8hpp" ],
+    [ "Synchronization.hpp", "_synchronization_8hpp.html", null ],
     [ "Task.cpp", "_task_8cpp.html", "_task_8cpp" ],
     [ "Task.hpp", "_task_8hpp.html", "_task_8hpp" ],
     [ "Tasking.hpp", "_tasking_8hpp.html", "_tasking_8hpp" ],

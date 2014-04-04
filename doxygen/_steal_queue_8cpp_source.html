@@ -135,22 +135,22 @@ $(document).ready(function(){initNavTree('_steal_queue_8cpp_source.html','');});
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="keyword">namespace </span>impl {</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
-<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="class_grappa_1_1impl_1_1_steal_metrics.html#a4786846bb7fbd6c7c500b3eee03ebdce">   67</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_grappa_1_1impl_1_1_steal_metrics.html#a4786846bb7fbd6c7c500b3eee03ebdce">StealMetrics::record_steal_reply</a>( <span class="keywordtype">size_t</span> msg_bytes ) {</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="keywordtype">void</span> StealMetrics::record_steal_reply( <span class="keywordtype">size_t</span> msg_bytes ) {</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  stealq_reply_messages += 1;</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  stealq_reply_total_bytes += msg_bytes;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;}</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
-<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="class_grappa_1_1impl_1_1_steal_metrics.html#a67601821a391737a4e3e6234033f770c">   72</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_grappa_1_1impl_1_1_steal_metrics.html#a67601821a391737a4e3e6234033f770c">StealMetrics::record_steal_request</a>( <span class="keywordtype">size_t</span> msg_bytes ) {</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="keywordtype">void</span> StealMetrics::record_steal_request( <span class="keywordtype">size_t</span> msg_bytes ) {</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  stealq_request_messages += 1;</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  stealq_request_total_bytes += msg_bytes;</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;}</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
-<div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="class_grappa_1_1impl_1_1_steal_metrics.html#ab1fa51881d5e877ef31a2f1c72b35b61">   77</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_grappa_1_1impl_1_1_steal_metrics.html#ab1fa51881d5e877ef31a2f1c72b35b61">StealMetrics::record_workshare_request</a>( <span class="keywordtype">size_t</span> msg_bytes ) {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="keywordtype">void</span> StealMetrics::record_workshare_request( <span class="keywordtype">size_t</span> msg_bytes ) {</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  workshare_request_messages += 1;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  workshare_request_total_bytes += msg_bytes;</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;}</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
-<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="class_grappa_1_1impl_1_1_steal_metrics.html#a6114c4250e571a6c636703df07893cbc">   82</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_grappa_1_1impl_1_1_steal_metrics.html#a6114c4250e571a6c636703df07893cbc">StealMetrics::record_workshare_reply</a>( <span class="keywordtype">size_t</span> msg_bytes, <span class="keywordtype">bool</span> isAccepted, <span class="keywordtype">int</span> num_received, <span class="keywordtype">int</span> num_denying, <span class="keywordtype">int</span> num_sending ) {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="keywordtype">void</span> StealMetrics::record_workshare_reply( <span class="keywordtype">size_t</span> msg_bytes, <span class="keywordtype">bool</span> isAccepted, <span class="keywordtype">int</span> num_received, <span class="keywordtype">int</span> num_denying, <span class="keywordtype">int</span> num_sending ) {</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  workshare_reply_messages += 1;</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  workshare_reply_total_bytes += msg_bytes;</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
@@ -165,21 +165,21 @@ $(document).ready(function(){initNavTree('_steal_queue_8cpp_source.html','');});
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;  workshare_reply_elements_sent+=( num_sending );</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;}</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
-<div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="class_grappa_1_1impl_1_1_steal_metrics.html#a858cb0de08beafa55b834e0dea4e46f4">   97</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_grappa_1_1impl_1_1_steal_metrics.html#a858cb0de08beafa55b834e0dea4e46f4">StealMetrics::record_workshare_reply_nack</a>( <span class="keywordtype">size_t</span> msg_bytes ) {</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="keywordtype">void</span> StealMetrics::record_workshare_reply_nack( <span class="keywordtype">size_t</span> msg_bytes ) {</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  workshare_reply_messages += 1;</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  workshare_reply_total_bytes += msg_bytes;</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  workshare_reply_nacks += 1;</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;}</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
-<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="class_grappa_1_1impl_1_1_steal_metrics.html#af59d46a472aa1c41625625b4ed72c5a8">  104</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_grappa_1_1impl_1_1_steal_metrics.html#af59d46a472aa1c41625625b4ed72c5a8">StealMetrics::record_globalq_data_pull_request</a>( <span class="keywordtype">size_t</span> msg_bytes, uint64_t amount ) {</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="keywordtype">void</span> StealMetrics::record_globalq_data_pull_request( <span class="keywordtype">size_t</span> msg_bytes, uint64_t amount ) {</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  globalq_data_pull_request_messages += 1;</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;  globalq_data_pull_request_total_bytes += msg_bytes;</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  globalq_data_pull_request_num_elements+=amount ;</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;}</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
-<div class="line"><a name="l00111"></a><span class="lineno"><a class="line" href="class_grappa_1_1impl_1_1_steal_metrics.html#a587de4631ab1ff565601272628b6cc15">  111</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_grappa_1_1impl_1_1_steal_metrics.html#a587de4631ab1ff565601272628b6cc15">StealMetrics::record_globalq_data_pull_reply</a>( <span class="keywordtype">size_t</span> msg_bytes, uint64_t amount ) {</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="keywordtype">void</span> StealMetrics::record_globalq_data_pull_reply( <span class="keywordtype">size_t</span> msg_bytes, uint64_t amount ) {</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;  globalq_data_pull_reply_messages += 1;</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;  globalq_data_pull_reply_total_bytes += msg_bytes;</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;</div>
@@ -189,17 +189,10 @@ $(document).ready(function(){initNavTree('_steal_queue_8cpp_source.html','');});
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;} <span class="comment">// namespace impl</span></div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;} <span class="comment">// namespace Grappa</span></div>
-<div class="ttc" id="class_grappa_1_1impl_1_1_steal_metrics_html_a6114c4250e571a6c636703df07893cbc"><div class="ttname"><a href="class_grappa_1_1impl_1_1_steal_metrics.html#a6114c4250e571a6c636703df07893cbc">Grappa::impl::StealMetrics::record_workshare_reply</a></div><div class="ttdeci">static void record_workshare_reply(size_t msg_bytes, bool isAccepted, int num_received, int num_denying, int num_sending)</div><div class="ttdef"><b>Definition:</b> <a href="_steal_queue_8cpp_source.html#l00082">StealQueue.cpp:82</a></div></div>
-<div class="ttc" id="class_grappa_1_1impl_1_1_steal_metrics_html_a587de4631ab1ff565601272628b6cc15"><div class="ttname"><a href="class_grappa_1_1impl_1_1_steal_metrics.html#a587de4631ab1ff565601272628b6cc15">Grappa::impl::StealMetrics::record_globalq_data_pull_reply</a></div><div class="ttdeci">static void record_globalq_data_pull_reply(size_t msg_bytes, uint64_t amount)</div><div class="ttdef"><b>Definition:</b> <a href="_steal_queue_8cpp_source.html#l00111">StealQueue.cpp:111</a></div></div>
 <div class="ttc" id="_metrics_8hpp_html"><div class="ttname"><a href="_metrics_8hpp.html">Metrics.hpp</a></div></div>
 <div class="ttc" id="_steal_queue_8hpp_html"><div class="ttname"><a href="_steal_queue_8hpp.html">StealQueue.hpp</a></div></div>
-<div class="ttc" id="class_grappa_1_1impl_1_1_steal_metrics_html_af59d46a472aa1c41625625b4ed72c5a8"><div class="ttname"><a href="class_grappa_1_1impl_1_1_steal_metrics.html#af59d46a472aa1c41625625b4ed72c5a8">Grappa::impl::StealMetrics::record_globalq_data_pull_request</a></div><div class="ttdeci">static void record_globalq_data_pull_request(size_t msg_bytes, uint64_t amount)</div><div class="ttdef"><b>Definition:</b> <a href="_steal_queue_8cpp_source.html#l00104">StealQueue.cpp:104</a></div></div>
-<div class="ttc" id="class_grappa_1_1impl_1_1_steal_metrics_html_a858cb0de08beafa55b834e0dea4e46f4"><div class="ttname"><a href="class_grappa_1_1impl_1_1_steal_metrics.html#a858cb0de08beafa55b834e0dea4e46f4">Grappa::impl::StealMetrics::record_workshare_reply_nack</a></div><div class="ttdeci">static void record_workshare_reply_nack(size_t msg_bytes)</div><div class="ttdef"><b>Definition:</b> <a href="_steal_queue_8cpp_source.html#l00097">StealQueue.cpp:97</a></div></div>
 <div class="ttc" id="_steal_queue_8cpp_html_a5192e875fc6a35554f84984b1c123c84"><div class="ttname"><a href="_steal_queue_8cpp.html#a5192e875fc6a35554f84984b1c123c84">GRAPPA_DEFINE_METRIC</a></div><div class="ttdeci">GRAPPA_DEFINE_METRIC(SimpleMetric&lt; uint64_t &gt;, stealq_reply_messages, 0)</div></div>
-<div class="ttc" id="class_grappa_1_1impl_1_1_steal_metrics_html_ab1fa51881d5e877ef31a2f1c72b35b61"><div class="ttname"><a href="class_grappa_1_1impl_1_1_steal_metrics.html#ab1fa51881d5e877ef31a2f1c72b35b61">Grappa::impl::StealMetrics::record_workshare_request</a></div><div class="ttdeci">static void record_workshare_request(size_t msg_bytes)</div><div class="ttdef"><b>Definition:</b> <a href="_steal_queue_8cpp_source.html#l00077">StealQueue.cpp:77</a></div></div>
 <div class="ttc" id="_dict_out_8hpp_html"><div class="ttname"><a href="_dict_out_8hpp.html">DictOut.hpp</a></div></div>
-<div class="ttc" id="class_grappa_1_1impl_1_1_steal_metrics_html_a4786846bb7fbd6c7c500b3eee03ebdce"><div class="ttname"><a href="class_grappa_1_1impl_1_1_steal_metrics.html#a4786846bb7fbd6c7c500b3eee03ebdce">Grappa::impl::StealMetrics::record_steal_reply</a></div><div class="ttdeci">static void record_steal_reply(size_t msg_bytes)</div><div class="ttdef"><b>Definition:</b> <a href="_steal_queue_8cpp_source.html#l00067">StealQueue.cpp:67</a></div></div>
-<div class="ttc" id="class_grappa_1_1impl_1_1_steal_metrics_html_a67601821a391737a4e3e6234033f770c"><div class="ttname"><a href="class_grappa_1_1impl_1_1_steal_metrics.html#a67601821a391737a4e3e6234033f770c">Grappa::impl::StealMetrics::record_steal_request</a></div><div class="ttdeci">static void record_steal_request(size_t msg_bytes)</div><div class="ttdef"><b>Definition:</b> <a href="_steal_queue_8cpp_source.html#l00072">StealQueue.cpp:72</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

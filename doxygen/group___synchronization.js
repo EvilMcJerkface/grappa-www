@@ -1,6 +1,5 @@
 var group___synchronization =
 [
-    [ "impl", "namespace_grappa_1_1impl.html", null ],
     [ "CompletionEvent", "class_grappa_1_1_completion_event.html", [
       [ "CompletionEvent", "class_grappa_1_1_completion_event.html#a52e97d6aaf0817e5072893408c212d6a", null ],
       [ "complete", "class_grappa_1_1_completion_event.html#ab313d13cc31ea7541ac3f4feed84d601", null ],

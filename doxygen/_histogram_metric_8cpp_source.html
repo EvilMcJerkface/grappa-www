@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('_histogram_metric_8cpp_source.html',''
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">namespace </span>Grappa {</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  <span class="keyword">namespace </span>impl {</div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="namespace_grappa_1_1impl.html#a86eafa441f9d22a2729e8f8a1a192913">   29</a></span>&#160;    std::vector&lt;HistogramMetric*&gt;&amp; <a class="code" href="namespace_grappa_1_1impl.html#a86eafa441f9d22a2729e8f8a1a192913">histogram_stats</a>() {        </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    std::vector&lt;HistogramMetric*&gt;&amp; histogram_stats() {        </div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;      <span class="keyword">static</span> std::vector&lt;HistogramMetric*&gt; r;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;      <span class="keywordflow">return</span> r;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
@@ -106,7 +106,7 @@ $(document).ready(function(){initNavTree('_histogram_metric_8cpp_source.html',''
 <div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="namespace_grappa_1_1_metrics.html">   35</a></span>&#160;  <span class="keyword">namespace </span>Metrics {</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    </div>
 <div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="namespace_grappa_1_1_metrics.html#a932a94933dfd36f2a8afffa047abdc2b">   37</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="namespace_grappa_1_1_metrics.html#a932a94933dfd36f2a8afffa047abdc2b">histogram_sample</a>() {</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;      <span class="keywordflow">for</span> (<a class="code" href="class_grappa_1_1_histogram_metric.html">HistogramMetric</a> * h : <a class="code" href="namespace_grappa_1_1impl.html#a86eafa441f9d22a2729e8f8a1a192913">Grappa::impl::histogram_stats</a>()) {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;      <span class="keywordflow">for</span> (<a class="code" href="class_grappa_1_1_histogram_metric.html">HistogramMetric</a> * h : Grappa::impl::histogram_stats()) {</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        DVLOG(5) &lt;&lt; <span class="stringliteral">&quot;sampling...&quot;</span>;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        h-&gt;sample();</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;      }</div>
@@ -114,23 +114,21 @@ $(document).ready(function(){initNavTree('_histogram_metric_8cpp_source.html',''
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  </div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  }</div>
 <div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="class_grappa_1_1_histogram_metric.html#ab06b994279d1b126d12568dbaa2d918d">   45</a></span>&#160;  <a class="code" href="class_grappa_1_1_histogram_metric.html#ab06b994279d1b126d12568dbaa2d918d">HistogramMetric::HistogramMetric</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> * name, int64_t nil_value, <span class="keywordtype">bool</span> reg_new)</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    : impl::<a class="code" href="class_grappa_1_1impl_1_1_metric_base.html">MetricBase</a>(name, reg_new)</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    : impl::MetricBase(name, reg_new)</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    , nil_value(nil_value)</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    , value_(nil_value)</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    , log_initialized(false)</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  {</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">  #ifdef HISTOGRAM_SAMPLED</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor"></span>    <a class="code" href="namespace_grappa_1_1impl.html#a86eafa441f9d22a2729e8f8a1a192913">impl::histogram_stats</a>().push_back(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor"></span>    impl::histogram_stats().push_back(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">  #endif //HISint64_tOGRAM_SAMPLED</span></div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor"></span>  }</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  </div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
-<div class="ttc" id="namespace_grappa_1_1impl_html_a86eafa441f9d22a2729e8f8a1a192913"><div class="ttname"><a href="namespace_grappa_1_1impl.html#a86eafa441f9d22a2729e8f8a1a192913">Grappa::impl::histogram_stats</a></div><div class="ttdeci">std::vector&lt; HistogramMetric * &gt; &amp; histogram_stats()</div><div class="ttdef"><b>Definition:</b> <a href="_histogram_metric_8cpp_source.html#l00029">HistogramMetric.cpp:29</a></div></div>
 <div class="ttc" id="_histogram_metric_8hpp_html"><div class="ttname"><a href="_histogram_metric_8hpp.html">HistogramMetric.hpp</a></div></div>
 <div class="ttc" id="namespace_grappa_1_1_metrics_html_a932a94933dfd36f2a8afffa047abdc2b"><div class="ttname"><a href="namespace_grappa_1_1_metrics.html#a932a94933dfd36f2a8afffa047abdc2b">Grappa::Metrics::histogram_sample</a></div><div class="ttdeci">void histogram_sample()</div><div class="ttdef"><b>Definition:</b> <a href="_histogram_metric_8cpp_source.html#l00037">HistogramMetric.cpp:37</a></div></div>
 <div class="ttc" id="class_grappa_1_1_histogram_metric_html_ab06b994279d1b126d12568dbaa2d918d"><div class="ttname"><a href="class_grappa_1_1_histogram_metric.html#ab06b994279d1b126d12568dbaa2d918d">Grappa::HistogramMetric::HistogramMetric</a></div><div class="ttdeci">HistogramMetric(const char *name, int64_t nil_value, bool reg_new=true)</div><div class="ttdef"><b>Definition:</b> <a href="_histogram_metric_8cpp_source.html#l00045">HistogramMetric.cpp:45</a></div></div>
 <div class="ttc" id="class_grappa_1_1_histogram_metric_html"><div class="ttname"><a href="class_grappa_1_1_histogram_metric.html">Grappa::HistogramMetric</a></div><div class="ttdef"><b>Definition:</b> <a href="_histogram_metric_8hpp_source.html#l00046">HistogramMetric.hpp:46</a></div></div>
-<div class="ttc" id="class_grappa_1_1impl_1_1_metric_base_html"><div class="ttname"><a href="class_grappa_1_1impl_1_1_metric_base.html">Grappa::impl::MetricBase</a></div><div class="ttdef"><b>Definition:</b> <a href="_metric_base_8hpp_source.html#l00031">MetricBase.hpp:31</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

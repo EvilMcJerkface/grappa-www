@@ -91,9 +91,6 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespace_grappa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_grappa.html">Grappa</a></td></tr>
 <tr class="memdesc:namespace_grappa"><td class="mdescLeft">&#160;</td><td class="mdescRight">this core's base pointer <br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespace_grappa_1_1impl"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_grappa_1_1impl.html">Grappa::impl</a></td></tr>
-<tr class="memdesc:namespace_grappa_1_1impl"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal messaging functions. <br/></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespace_grappa_1_1_metrics"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_grappa_1_1_metrics.html">Grappa::Metrics</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -113,13 +110,7 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a393cd0a76456bde21355b6455d1afc08"><td class="memItemLeft" align="right" valign="top">MetricList &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_grappa_1_1impl.html#a393cd0a76456bde21355b6455d1afc08">Grappa::impl::registered_stats</a> ()</td></tr>
-<tr class="memdesc:a393cd0a76456bde21355b6455d1afc08"><td class="mdescLeft">&#160;</td><td class="mdescRight">singleton list of stats  <a href="#a393cd0a76456bde21355b6455d1afc08">More...</a><br/></td></tr>
-<tr class="separator:a393cd0a76456bde21355b6455d1afc08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a9bb7f433beb3bbd9d24a56d141b371"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_grappa_1_1impl.html#a9a9bb7f433beb3bbd9d24a56d141b371">Grappa::impl::set_exe_name</a> (char *argv0)</td></tr>
-<tr class="memdesc:a9a9bb7f433beb3bbd9d24a56d141b371"><td class="mdescLeft">&#160;</td><td class="mdescRight">Record binary name for use in construcing profiler filenames.  <a href="#a9a9bb7f433beb3bbd9d24a56d141b371">More...</a><br/></td></tr>
-<tr class="separator:a9a9bb7f433beb3bbd9d24a56d141b371"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97bce41e248f7bf674b94d229001c71c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_grappa_1_1_metrics.html#a97bce41e248f7bf674b94d229001c71c">Grappa::Metrics::print</a> (std::ostream &amp;out=std::cerr, MetricList &amp;stats=<a class="el" href="namespace_grappa_1_1impl.html#a393cd0a76456bde21355b6455d1afc08">Grappa::impl::registered_stats</a>(), const std::string &amp;legacy_stats=&quot;&quot;)</td></tr>
+<tr class="memitem:a97bce41e248f7bf674b94d229001c71c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_grappa_1_1_metrics.html#a97bce41e248f7bf674b94d229001c71c">Grappa::Metrics::print</a> (std::ostream &amp;out=std::cerr, MetricList &amp;stats=Grappa::impl::registered_stats(), const std::string &amp;legacy_stats=&quot;&quot;)</td></tr>
 <tr class="memdesc:a97bce41e248f7bf674b94d229001c71c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print all registered stats in JSON format.  <a href="#a97bce41e248f7bf674b94d229001c71c">More...</a><br/></td></tr>
 <tr class="separator:a97bce41e248f7bf674b94d229001c71c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa152d23452727968868c2a05a8288886"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_grappa_1_1_metrics.html#aa152d23452727968868c2a05a8288886">Grappa::Metrics::merge</a> (MetricList &amp;result)</td></tr>
@@ -155,7 +146,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a282d9e512fa6d6c465ab6172c241257c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_grappa_1_1_metrics.html#a282d9e512fa6d6c465ab6172c241257c">Grappa::Metrics::stop_tracing_here</a> ()</td></tr>
 <tr class="memdesc:a282d9e512fa6d6c465ab6172c241257c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only call 'stop_tracing' on this core (use in SPMD context)  <a href="#a282d9e512fa6d6c465ab6172c241257c">More...</a><br/></td></tr>
 <tr class="separator:a282d9e512fa6d6c465ab6172c241257c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7506f8eee493c73c91c5beeb016b7111"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___utility.html#ga7506f8eee493c73c91c5beeb016b7111">operator&lt;&lt;</a> (std::ostream &amp;o, const <a class="el" href="class_grappa_1_1impl_1_1_metric_base.html">Grappa::impl::MetricBase</a> &amp;stat)</td></tr>
+<tr class="memitem:ga7506f8eee493c73c91c5beeb016b7111"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___utility.html#ga7506f8eee493c73c91c5beeb016b7111">operator&lt;&lt;</a> (std::ostream &amp;o, const Grappa::impl::MetricBase &amp;stat)</td></tr>
 <tr class="memdesc:ga7506f8eee493c73c91c5beeb016b7111"><td class="mdescLeft">&#160;</td><td class="mdescRight">make statistics printable  <a href="group___utility.html#ga7506f8eee493c73c91c5beeb016b7111">More...</a><br/></td></tr>
 <tr class="separator:ga7506f8eee493c73c91c5beeb016b7111"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>

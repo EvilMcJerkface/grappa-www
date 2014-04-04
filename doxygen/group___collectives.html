@@ -62,19 +62,12 @@ $(document).ready(function(){initNavTree('group___collectives.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Collectives</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:namespace_grappa_1_1impl"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_grappa_1_1impl.html">Grappa::impl</a></td></tr>
-<tr class="memdesc:namespace_grappa_1_1impl"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal messaging functions. <br/></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga34aff137286f631648c195112fcfb8ad"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
@@ -216,7 +209,7 @@ template&lt;typename F &gt; </div>
 <div class="fragment"><div class="line"><span class="keywordtype">int</span> x[<a class="code" href="group___communication.html#gaff2afcac6058e98ea3c6151f2445702b">Grappa::cores</a>()];</div>
 <div class="line"><a class="code" href="class_global_address.html">GlobalAddress&lt;int&gt;</a> x_base = <a class="code" href="group___memory.html#ga55c522130968fe1140cb8505dc9eac1a">make_global</a>(x);</div>
 <div class="line"><a class="code" href="group___collectives.html#gac74a2d7ffb5b36ec6833ebfc54c16841">Grappa::on_all_cores</a>([x_base]{</div>
-<div class="line">  <a class="code" href="group___delegates.html#ga13cb46277cd2bf8c03ae12952afdcaf4">Grappa::delegate::write</a>(x_base+<a class="code" href="group___communication.html#ga9d165cbd8cbb54ce375f342722022a91">Grappa::mycore</a>(), 1);</div>
+<div class="line">  Grappa::delegate::write(x_base+<a class="code" href="group___communication.html#ga9d165cbd8cbb54ce375f342722022a91">Grappa::mycore</a>(), 1);</div>
 <div class="line">});</div>
 </div><!-- fragment --> 
 <p>Definition at line <a class="el" href="_collective_8hpp_source.html#l00109">109</a> of file <a class="el" href="_collective_8hpp_source.html">Collective.hpp</a>.</p>

@@ -14,7 +14,5 @@ var _tasking_scheduler_8cpp =
     [ "GRAPPA_DEFINE_METRIC", "_tasking_scheduler_8cpp.html#a8ace6185f8d06dedc27595cda44c49d1", null ],
     [ "GRAPPA_DEFINE_METRIC", "_tasking_scheduler_8cpp.html#abb92d76954ff2dcfddc3a2d94814b248", null ],
     [ "GRAPPA_DEFINE_METRIC", "_tasking_scheduler_8cpp.html#a4cc375a53e6d19533442d55b4ffaa925", null ],
-    [ "GRAPPA_DEFINE_METRIC", "_tasking_scheduler_8cpp.html#a0ce9fd020bcca07bbd832923a0da2adb", null ],
-    [ "operator<<", "_tasking_scheduler_8cpp.html#a4bc9dc70d78ec1dac071acca19f505b5", null ],
-    [ "workerLoop", "_tasking_scheduler_8cpp.html#a0eb3eb204f810b26129dec9a62eca45e", null ]
+    [ "GRAPPA_DEFINE_METRIC", "_tasking_scheduler_8cpp.html#a0ce9fd020bcca07bbd832923a0da2adb", null ]
 ];

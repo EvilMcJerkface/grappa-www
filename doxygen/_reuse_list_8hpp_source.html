@@ -106,69 +106,69 @@ $(document).ready(function(){initNavTree('_reuse_list_8hpp_source.html','');});
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">namespace </span>impl {</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keyword">template</span>&lt; <span class="keyword">typename</span> T &gt;</div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="class_grappa_1_1impl_1_1_reuse_list.html">   42</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_grappa_1_1impl_1_1_reuse_list.html">ReuseList</a> {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keyword">class </span>ReuseList {</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  T * list_;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  <a class="code" href="class_grappa_1_1_condition_variable.html">ConditionVariable</a> cv;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="keywordtype">size_t</span> count_;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  T * <a class="code" href="_reuse_message_8hpp.html#a8935f36b7a9990a5291f2d0cfcdc3dac">list_</a>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  ConditionVariable cv;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="_external_count_payload_message_8hpp.html#a8e72435669e8a8032bf676feabdfc709">count_</a>;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="class_grappa_1_1impl_1_1_reuse_list.html#aebb3b432af0ae222426ad573a2d05b99">   49</a></span>&#160;  <a class="code" href="class_grappa_1_1impl_1_1_reuse_list.html#aebb3b432af0ae222426ad573a2d05b99">ReuseList</a>()</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    : list_(NULL)</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  ReuseList()</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    : <a class="code" href="_reuse_message_8hpp.html#a8935f36b7a9990a5291f2d0cfcdc3dac">list_</a>(NULL)</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    , cv()</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    , count_(0)</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    , <a class="code" href="_external_count_payload_message_8hpp.html#a8e72435669e8a8032bf676feabdfc709">count_</a>(0)</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  { }</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
-<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="class_grappa_1_1impl_1_1_reuse_list.html#a10f59469afe0b909c93e1d4d44764a59">   55</a></span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="class_grappa_1_1impl_1_1_reuse_list.html#a10f59469afe0b909c93e1d4d44764a59">empty</a>()<span class="keyword"> const </span>{ </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">return</span> list_ == NULL;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="keywordtype">bool</span> empty()<span class="keyword"> const </span>{ </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="_reuse_message_8hpp.html#a8935f36b7a9990a5291f2d0cfcdc3dac">list_</a> == NULL;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  }</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
-<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="class_grappa_1_1impl_1_1_reuse_list.html#a9b1bd5da299257413a5e4128fcd5427d">   59</a></span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="class_grappa_1_1impl_1_1_reuse_list.html#a9b1bd5da299257413a5e4128fcd5427d">count</a>()<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordflow">return</span> count_;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  <span class="keywordtype">size_t</span> count()<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="_external_count_payload_message_8hpp.html#a8e72435669e8a8032bf676feabdfc709">count_</a>;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  }</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  <span class="comment">// block until we have a buffer to process</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="class_grappa_1_1impl_1_1_reuse_list.html#a726f6abd32f4c9c2579a931fd9ac8d91">   64</a></span>&#160;  T * <a class="code" href="class_grappa_1_1impl_1_1_reuse_list.html#a726f6abd32f4c9c2579a931fd9ac8d91">block_until_pop</a>() {</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">while</span>( <a class="code" href="class_grappa_1_1impl_1_1_reuse_list.html#a10f59469afe0b909c93e1d4d44764a59">empty</a>() ) {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  T * block_until_pop() {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">while</span>( empty() ) {</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;      DVLOG(5) &lt;&lt; __PRETTY_FUNCTION__ &lt;&lt; <span class="stringliteral">&quot;: blocking&quot;</span>;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;      <a class="code" href="group___synchronization.html#ga0e49ee2c2ae50e793e427b0fcfa842f9">Grappa::wait</a>( &amp;cv );</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    }</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    T * b = list_;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    T * b = <a class="code" href="_reuse_message_8hpp.html#a8935f36b7a9990a5291f2d0cfcdc3dac">list_</a>;</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="comment">// put back rest of list</span></div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    list_ = b-&gt;get_next();</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <a class="code" href="_reuse_message_8hpp.html#a8935f36b7a9990a5291f2d0cfcdc3dac">list_</a> = b-&gt;get_next();</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    DVLOG(5) &lt;&lt; __PRETTY_FUNCTION__ &lt;&lt; <span class="stringliteral">&quot;: popping &quot;</span> &lt;&lt; b &lt;&lt; <span class="stringliteral">&quot; (count &quot;</span> &lt;&lt; count_ &lt;&lt; <span class="stringliteral">&quot;) list=&quot;</span> &lt;&lt; list_;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    DVLOG(5) &lt;&lt; __PRETTY_FUNCTION__ &lt;&lt; <span class="stringliteral">&quot;: popping &quot;</span> &lt;&lt; b &lt;&lt; <span class="stringliteral">&quot; (count &quot;</span> &lt;&lt; <a class="code" href="_external_count_payload_message_8hpp.html#a8e72435669e8a8032bf676feabdfc709">count_</a> &lt;&lt; <span class="stringliteral">&quot;) list=&quot;</span> &lt;&lt; <a class="code" href="_reuse_message_8hpp.html#a8935f36b7a9990a5291f2d0cfcdc3dac">list_</a>;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="comment">// make sure the buffer is not part of any list</span></div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    b-&gt;set_next( NULL );</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="comment">// record the get</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    count_--;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <a class="code" href="_external_count_payload_message_8hpp.html#a8e72435669e8a8032bf676feabdfc709">count_</a>--;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    </div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">return</span> b;</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  }</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  </div>
-<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="class_grappa_1_1impl_1_1_reuse_list.html#a12683a72194fd4207b1605bfd809dd98">   87</a></span>&#160;  T * <a class="code" href="class_grappa_1_1impl_1_1_reuse_list.html#a12683a72194fd4207b1605bfd809dd98">try_pop</a>() {</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordflow">if</span>( !<a class="code" href="class_grappa_1_1impl_1_1_reuse_list.html#a10f59469afe0b909c93e1d4d44764a59">empty</a>() ) {</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="class_grappa_1_1impl_1_1_reuse_list.html#a726f6abd32f4c9c2579a931fd9ac8d91">block_until_pop</a>();</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  T * try_pop() {</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordflow">if</span>( !empty() ) {</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;      <span class="keywordflow">return</span> block_until_pop();</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;      <span class="keywordflow">return</span> NULL;</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    }</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  }</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;  </div>
-<div class="line"><a name="l00095"></a><span class="lineno"><a class="line" href="class_grappa_1_1impl_1_1_reuse_list.html#a6d2fd58851f7edb63fc8a16e3ab5fa6d">   95</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_grappa_1_1impl_1_1_reuse_list.html#a6d2fd58851f7edb63fc8a16e3ab5fa6d">push</a>( T * b ) {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  <span class="keywordtype">void</span> push( T * b ) {</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    CHECK_NOTNULL( b );</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    DVLOG(5) &lt;&lt; __PRETTY_FUNCTION__ &lt;&lt; <span class="stringliteral">&quot;: pushing &quot;</span> &lt;&lt; b &lt;&lt; <span class="stringliteral">&quot; (count &quot;</span> &lt;&lt; count_ &lt;&lt; <span class="stringliteral">&quot;) list=&quot;</span> &lt;&lt; list_;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    DVLOG(5) &lt;&lt; __PRETTY_FUNCTION__ &lt;&lt; <span class="stringliteral">&quot;: pushing &quot;</span> &lt;&lt; b &lt;&lt; <span class="stringliteral">&quot; (count &quot;</span> &lt;&lt; <a class="code" href="_external_count_payload_message_8hpp.html#a8e72435669e8a8032bf676feabdfc709">count_</a> &lt;&lt; <span class="stringliteral">&quot;) list=&quot;</span> &lt;&lt; <a class="code" href="_reuse_message_8hpp.html#a8935f36b7a9990a5291f2d0cfcdc3dac">list_</a>;</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    b-&gt;set_next( list_ );</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    list_ = b;</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <a class="code" href="group___synchronization.html#gabcf3b681a173156001dc47e12c081de9">Grappa::signal</a>( &amp;cv );</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="comment">// record the put</span></div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    count_++;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <a class="code" href="_external_count_payload_message_8hpp.html#a8e72435669e8a8032bf676feabdfc709">count_</a>++;</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;  }</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;};</div>
@@ -178,18 +178,12 @@ $(document).ready(function(){initNavTree('_reuse_list_8hpp_source.html','');});
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;}</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
-<div class="ttc" id="class_grappa_1_1_condition_variable_html"><div class="ttname"><a href="class_grappa_1_1_condition_variable.html">Grappa::ConditionVariable</a></div><div class="ttdef"><b>Definition:</b> <a href="_condition_variable_local_8hpp_source.html#l00039">ConditionVariableLocal.hpp:39</a></div></div>
-<div class="ttc" id="class_grappa_1_1impl_1_1_reuse_list_html"><div class="ttname"><a href="class_grappa_1_1impl_1_1_reuse_list.html">Grappa::impl::ReuseList</a></div><div class="ttdoc">List of buffers for RDMA messaging. </div><div class="ttdef"><b>Definition:</b> <a href="_reuse_list_8hpp_source.html#l00042">ReuseList.hpp:42</a></div></div>
-<div class="ttc" id="class_grappa_1_1impl_1_1_reuse_list_html_a12683a72194fd4207b1605bfd809dd98"><div class="ttname"><a href="class_grappa_1_1impl_1_1_reuse_list.html#a12683a72194fd4207b1605bfd809dd98">Grappa::impl::ReuseList::try_pop</a></div><div class="ttdeci">T * try_pop()</div><div class="ttdoc">Returns NULL if no buffers are available, or a buffer otherwise. </div><div class="ttdef"><b>Definition:</b> <a href="_reuse_list_8hpp_source.html#l00087">ReuseList.hpp:87</a></div></div>
 <div class="ttc" id="_condition_variable_local_8hpp_html"><div class="ttname"><a href="_condition_variable_local_8hpp.html">ConditionVariableLocal.hpp</a></div></div>
-<div class="ttc" id="class_grappa_1_1impl_1_1_reuse_list_html_a10f59469afe0b909c93e1d4d44764a59"><div class="ttname"><a href="class_grappa_1_1impl_1_1_reuse_list.html#a10f59469afe0b909c93e1d4d44764a59">Grappa::impl::ReuseList::empty</a></div><div class="ttdeci">bool empty() const </div><div class="ttdef"><b>Definition:</b> <a href="_reuse_list_8hpp_source.html#l00055">ReuseList.hpp:55</a></div></div>
-<div class="ttc" id="class_grappa_1_1impl_1_1_reuse_list_html_aebb3b432af0ae222426ad573a2d05b99"><div class="ttname"><a href="class_grappa_1_1impl_1_1_reuse_list.html#aebb3b432af0ae222426ad573a2d05b99">Grappa::impl::ReuseList::ReuseList</a></div><div class="ttdeci">ReuseList()</div><div class="ttdef"><b>Definition:</b> <a href="_reuse_list_8hpp_source.html#l00049">ReuseList.hpp:49</a></div></div>
+<div class="ttc" id="_external_count_payload_message_8hpp_html_a8e72435669e8a8032bf676feabdfc709"><div class="ttname"><a href="_external_count_payload_message_8hpp.html#a8e72435669e8a8032bf676feabdfc709">count_</a></div><div class="ttdeci">uint64_t * count_</div><div class="ttdef"><b>Definition:</b> <a href="_external_count_payload_message_8hpp_source.html#l00163">ExternalCountPayloadMessage.hpp:163</a></div></div>
+<div class="ttc" id="_reuse_message_8hpp_html_a8935f36b7a9990a5291f2d0cfcdc3dac"><div class="ttname"><a href="_reuse_message_8hpp.html#a8935f36b7a9990a5291f2d0cfcdc3dac">list_</a></div><div class="ttdeci">Grappa::impl::ReuseList&lt; ReuseMessage &gt; * list_</div><div class="ttdef"><b>Definition:</b> <a href="_reuse_message_8hpp_source.html#l00097">ReuseMessage.hpp:97</a></div></div>
 <div class="ttc" id="group___synchronization_html_ga0e49ee2c2ae50e793e427b0fcfa842f9"><div class="ttname"><a href="group___synchronization.html#ga0e49ee2c2ae50e793e427b0fcfa842f9">Grappa::wait</a></div><div class="ttdeci">void wait(GlobalAddress&lt; ConditionVariable &gt; m)</div><div class="ttdoc">Proxy for remote ConditionVariable manipulation. </div><div class="ttdef"><b>Definition:</b> <a href="_condition_variable_8hpp_source.html#l00039">ConditionVariable.hpp:39</a></div></div>
 <div class="ttc" id="_full_empty_local_8hpp_html"><div class="ttname"><a href="_full_empty_local_8hpp.html">FullEmptyLocal.hpp</a></div></div>
-<div class="ttc" id="class_grappa_1_1impl_1_1_reuse_list_html_a9b1bd5da299257413a5e4128fcd5427d"><div class="ttname"><a href="class_grappa_1_1impl_1_1_reuse_list.html#a9b1bd5da299257413a5e4128fcd5427d">Grappa::impl::ReuseList::count</a></div><div class="ttdeci">size_t count() const </div><div class="ttdef"><b>Definition:</b> <a href="_reuse_list_8hpp_source.html#l00059">ReuseList.hpp:59</a></div></div>
-<div class="ttc" id="class_grappa_1_1impl_1_1_reuse_list_html_a6d2fd58851f7edb63fc8a16e3ab5fa6d"><div class="ttname"><a href="class_grappa_1_1impl_1_1_reuse_list.html#a6d2fd58851f7edb63fc8a16e3ab5fa6d">Grappa::impl::ReuseList::push</a></div><div class="ttdeci">void push(T *b)</div><div class="ttdef"><b>Definition:</b> <a href="_reuse_list_8hpp_source.html#l00095">ReuseList.hpp:95</a></div></div>
 <div class="ttc" id="group___synchronization_html_gabcf3b681a173156001dc47e12c081de9"><div class="ttname"><a href="group___synchronization.html#gabcf3b681a173156001dc47e12c081de9">Grappa::signal</a></div><div class="ttdeci">void signal(const GlobalAddress&lt; ConditionVariable &gt; m)</div><div class="ttdef"><b>Definition:</b> <a href="_condition_variable_8hpp_source.html#l00045">ConditionVariable.hpp:45</a></div></div>
-<div class="ttc" id="class_grappa_1_1impl_1_1_reuse_list_html_a726f6abd32f4c9c2579a931fd9ac8d91"><div class="ttname"><a href="class_grappa_1_1impl_1_1_reuse_list.html#a726f6abd32f4c9c2579a931fd9ac8d91">Grappa::impl::ReuseList::block_until_pop</a></div><div class="ttdeci">T * block_until_pop()</div><div class="ttdef"><b>Definition:</b> <a href="_reuse_list_8hpp_source.html#l00064">ReuseList.hpp:64</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

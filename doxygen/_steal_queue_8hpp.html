@@ -68,12 +68,10 @@ $(document).ready(function(){initNavTree('_steal_queue_8hpp.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">StealQueue.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -97,23 +95,10 @@ $(document).ready(function(){initNavTree('_steal_queue_8hpp.html','');});
 </div>
 <p><a href="_steal_queue_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_grappa_1_1impl_1_1_chunk_info.html">Grappa::impl::ChunkInfo&lt; T &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_grappa_1_1impl_1_1_steal_metrics.html">Grappa::impl::StealMetrics</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_grappa_1_1impl_1_1_steal_queue.html">Grappa::impl::StealQueue&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bounded queue that knows how to share elements with other queues by work stealing.  <a href="class_grappa_1_1impl_1_1_steal_queue.html#details">More...</a><br/></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_grappa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_grappa.html">Grappa</a></td></tr>
 <tr class="memdesc:namespace_grappa"><td class="mdescLeft">&#160;</td><td class="mdescRight">this core's base pointer <br/></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespace_grappa_1_1impl"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_grappa_1_1impl.html">Grappa::impl</a></td></tr>
-<tr class="memdesc:namespace_grappa_1_1impl"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal messaging functions. <br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -135,16 +120,6 @@ Typedefs</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:aec023de29f8cd00869854602138a4bbf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_steal_queue_8hpp.html#aec023de29f8cd00869854602138a4bbf">DECLARE_int32</a> (chunk_size)</td></tr>
 <tr class="separator:aec023de29f8cd00869854602138a4bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26055c6a3bb2862ea7fca29c7a120878"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a26055c6a3bb2862ea7fca29c7a120878"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_grappa_1_1impl.html#a26055c6a3bb2862ea7fca29c7a120878">Grappa::impl::operator&lt;&lt;</a> (std::ostream &amp;o, const StealQueue&lt; T &gt; &amp;sq)</td></tr>
-<tr class="memdesc:a26055c6a3bb2862ea7fca29c7a120878"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output stream for state of the <a class="el" href="class_grappa_1_1impl_1_1_steal_queue.html" title="Bounded queue that knows how to share elements with other queues by work stealing. ">StealQueue</a>.  <a href="#a26055c6a3bb2862ea7fca29c7a120878">More...</a><br/></td></tr>
-<tr class="separator:a26055c6a3bb2862ea7fca29c7a120878"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a40b5d30f4a8858002b112842ceb42358"><td class="memItemLeft" align="right" valign="top">TaskingScheduler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_grappa_1_1impl.html#a40b5d30f4a8858002b112842ceb42358">Grappa::impl::global_scheduler</a></td></tr>
-<tr class="memdesc:a40b5d30f4a8858002b112842ceb42358"><td class="mdescLeft">&#160;</td><td class="mdescRight">global <a class="el" href="class_grappa_1_1impl_1_1_tasking_scheduler.html" title="Worker scheduler that knows about Tasks. ">TaskingScheduler</a> for this Core  <a href="#a40b5d30f4a8858002b112842ceb42358">More...</a><br/></td></tr>
-<tr class="separator:a40b5d30f4a8858002b112842ceb42358"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a4d6b570c4898bbf4654a85762a84c1eb"></a>

@@ -112,12 +112,12 @@ $(document).ready(function(){initNavTree('_delegate_base_8hpp_source.html','');}
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  </div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  <span class="keyword">namespace </span>impl {</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    </div>
-<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="namespace_grappa_1_1impl.html#a31af568ca2af311e1d8f03984c37867b">   44</a></span>&#160;    <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="namespace_grappa_1_1impl.html#a31af568ca2af311e1d8f03984c37867b">record_network_latency</a>(int64_t start_time) {</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keyword">inline</span> <span class="keywordtype">void</span> record_network_latency(int64_t start_time) {</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;      <span class="keyword">auto</span> latency = Grappa::timestamp() - start_time;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;      delegate_network_latency += latency;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="namespace_grappa_1_1impl.html#ab1c20d9766ea3ed746b630c3af6c4cf6">   49</a></span>&#160;    <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="namespace_grappa_1_1impl.html#ab1c20d9766ea3ed746b630c3af6c4cf6">record_wakeup_latency</a>(int64_t start_time, int64_t network_time) {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keyword">inline</span> <span class="keywordtype">void</span> record_wakeup_latency(int64_t start_time, int64_t network_time) {</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;      <span class="keyword">auto</span> current_time = Grappa::timestamp();</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;      <span class="keyword">auto</span> blocked_time = current_time - start_time;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;      <span class="keyword">auto</span> wakeup_latency = current_time - network_time;</div>
@@ -128,9 +128,9 @@ $(document).ready(function(){initNavTree('_delegate_base_8hpp_source.html','');}
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    </div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="comment">// blocking call (void return type)</span></div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keyword">template</span>&lt; <span class="keyword">typename</span> F &gt;</div>
-<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="namespace_grappa_1_1impl.html#a889fd24b2c815cd0b9e9d31478e1abd4">   60</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="group___delegates.html#ga8d9f7f6356be82352122157772452b0a">call</a>(<a class="code" href="namespace_grappa_1_1impl.html#aed652828378476dae45958142f67fec4">Core</a> dest, F func, <span class="keywordtype">void</span> (F::*mf)() <span class="keyword">const</span>) {</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="group___delegates.html#ga9314cb77365ab51d6fe4772c611921bc">call</a>(<a class="code" href="_communicator_8hpp.html#a3a0af41b6e127e7f96781ce84aa9d40e">Core</a> dest, F func, <span class="keywordtype">void</span> (F::*mf)() <span class="keyword">const</span>) {</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;      delegate_ops++;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;      <a class="code" href="namespace_grappa_1_1impl.html#aed652828378476dae45958142f67fec4">Core</a> origin = <a class="code" href="group___communication.html#ga9d165cbd8cbb54ce375f342722022a91">Grappa::mycore</a>();</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;      <a class="code" href="_communicator_8hpp.html#a3a0af41b6e127e7f96781ce84aa9d40e">Core</a> origin = <a class="code" href="group___communication.html#ga9d165cbd8cbb54ce375f342722022a91">Grappa::mycore</a>();</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;      <span class="keywordflow">if</span> (dest == origin) {</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="comment">// short-circuit if local</span></div>
@@ -146,8 +146,8 @@ $(document).ready(function(){initNavTree('_delegate_base_8hpp_source.html','');}
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        desc.network_time = 0;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        desc.start_time = Grappa::timestamp();</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        </div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <a class="code" href="class_grappa_1_1_full_empty.html">FullEmpty&lt;Desc*&gt;</a> result(&amp;desc);</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        result.<a class="code" href="class_grappa_1_1_full_empty.html#a6035942238cb13ef91cbaa106e51d8d4">readFE</a>();</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        FullEmpty&lt;Desc*&gt; result(&amp;desc);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        result.readFE();</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keyword">auto</span> ra = <a class="code" href="group___memory.html#ga55c522130968fe1140cb8505dc9eac1a">make_global</a>(&amp;result);</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        </div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <a class="code" href="group___communication.html#ga528d3be2db6c7577613bba8b60bf01d3">send_message</a>(dest, [ra,func] {</div>
@@ -159,20 +159,20 @@ $(document).ready(function(){initNavTree('_delegate_base_8hpp_source.html','');}
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;          <a class="code" href="namespace_grappa.html#ac841f71522852e7708be1cc644f3eb2a">send_heap_message</a>(ra.core(), [ra] {</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            <span class="keyword">auto</span> r = ra-&gt;readXX();</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            r-&gt;network_time = Grappa::timestamp();</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            <a class="code" href="namespace_grappa_1_1impl.html#a31af568ca2af311e1d8f03984c37867b">record_network_latency</a>(r-&gt;start_time);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            record_network_latency(r-&gt;start_time);</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            ra-&gt;writeXF(r);</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;          });</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        }); <span class="comment">// send message</span></div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="comment">// ... and wait for the call to complete</span></div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        result.<a class="code" href="class_grappa_1_1_full_empty.html#a16ad448a7e73fa76ba6f67dec4340569">readFF</a>();</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <a class="code" href="namespace_grappa_1_1impl.html#ab1c20d9766ea3ed746b630c3af6c4cf6">record_wakeup_latency</a>(desc.start_time, desc.network_time);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        result.readFF();</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        record_wakeup_latency(desc.start_time, desc.network_time);</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;      }</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    }</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="comment">// blocking call (with return val)</span></div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keyword">template</span>&lt; <span class="keyword">typename</span> F, <span class="keyword">typename</span> T &gt;</div>
-<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="namespace_grappa_1_1impl.html#a7ac565f1ee078cdc77a4adb5702b03da">  104</a></span>&#160;    <span class="keyword">auto</span> <a class="code" href="group___delegates.html#ga8d9f7f6356be82352122157772452b0a">call</a>(<a class="code" href="namespace_grappa_1_1impl.html#aed652828378476dae45958142f67fec4">Core</a> dest, F func, T (F::*mf)() <span class="keyword">const</span>) -&gt; T {</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keyword">auto</span> <a class="code" href="group___delegates.html#ga9314cb77365ab51d6fe4772c611921bc">call</a>(<a class="code" href="_communicator_8hpp.html#a3a0af41b6e127e7f96781ce84aa9d40e">Core</a> dest, F func, T (F::*mf)() <span class="keyword">const</span>) -&gt; T {</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;      static_assert(std::is_convertible&lt; decltype(func()), T &gt;(),</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                    <span class="stringliteral">&quot;lambda doesn&#39;t return the expected type&quot;</span>);</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;      <span class="comment">// Note: code below (calling call_async) could be used to avoid duplication of code,</span></div>
@@ -184,7 +184,7 @@ $(document).ready(function(){initNavTree('_delegate_base_8hpp_source.html','');}
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;      <span class="comment">// TODO: find a way to implement using async version that doesn&#39;t introduce overhead</span></div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;      delegate_ops++;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;      <a class="code" href="namespace_grappa_1_1impl.html#aed652828378476dae45958142f67fec4">Core</a> origin = <a class="code" href="group___communication.html#ga9d165cbd8cbb54ce375f342722022a91">Grappa::mycore</a>();</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;      <a class="code" href="_communicator_8hpp.html#a3a0af41b6e127e7f96781ce84aa9d40e">Core</a> origin = <a class="code" href="group___communication.html#ga9d165cbd8cbb54ce375f342722022a91">Grappa::mycore</a>();</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;      <span class="keywordflow">if</span> (dest == origin) {</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="comment">// short-circuit if local</span></div>
@@ -202,8 +202,8 @@ $(document).ready(function(){initNavTree('_delegate_base_8hpp_source.html','');}
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        desc.network_time = 0;</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        desc.start_time = Grappa::timestamp();</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        </div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        <a class="code" href="class_grappa_1_1_full_empty.html">FullEmpty&lt;Desc*&gt;</a> dfe(&amp;desc);</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        dfe.<a class="code" href="class_grappa_1_1_full_empty.html#a6035942238cb13ef91cbaa106e51d8d4">readFE</a>();</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        FullEmpty&lt;Desc*&gt; dfe(&amp;desc);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        dfe.readFE();</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        <span class="keyword">auto</span> da = <a class="code" href="group___memory.html#ga55c522130968fe1140cb8505dc9eac1a">make_global</a>(&amp;dfe);</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        </div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        <a class="code" href="group___communication.html#ga528d3be2db6c7577613bba8b60bf01d3">send_message</a>(dest, [da,func] {</div>
@@ -216,21 +216,21 @@ $(document).ready(function(){initNavTree('_delegate_base_8hpp_source.html','');}
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;            <span class="keyword">auto</span> d = da-&gt;readXX();</div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            d-&gt;result = val;</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;            d-&gt;network_time = Grappa::timestamp();</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;            <a class="code" href="namespace_grappa_1_1impl.html#a31af568ca2af311e1d8f03984c37867b">record_network_latency</a>(d-&gt;start_time);</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;            record_network_latency(d-&gt;start_time);</div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            da-&gt;writeXF(d);</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;          });</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        }); <span class="comment">// send message</span></div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        </div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        <span class="comment">// ... and wait for the call to complete</span></div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        dfe.<a class="code" href="class_grappa_1_1_full_empty.html#a16ad448a7e73fa76ba6f67dec4340569">readFF</a>();</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <a class="code" href="namespace_grappa_1_1impl.html#ab1c20d9766ea3ed746b630c3af6c4cf6">record_wakeup_latency</a>(desc.start_time, desc.network_time);</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        dfe.readFF();</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        record_wakeup_latency(desc.start_time, desc.network_time);</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        <span class="keywordflow">return</span> desc.result;</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;      }</div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    }</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    </div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    <span class="keyword">template</span>&lt; <span class="keyword">typename</span> F &gt;</div>
-<div class="line"><a name="l00161"></a><span class="lineno"><a class="line" href="namespace_grappa_1_1impl.html#a33e2ecb7c1afb6a7584108feff1dd118">  161</a></span>&#160;    <span class="keyword">auto</span> <a class="code" href="group___delegates.html#ga8d9f7f6356be82352122157772452b0a">call</a>(<a class="code" href="namespace_grappa_1_1impl.html#aed652828378476dae45958142f67fec4">Core</a> dest, F func) -&gt; decltype(func()) {</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="group___delegates.html#ga8d9f7f6356be82352122157772452b0a">call</a>(dest, func, &amp;F::operator());</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <span class="keyword">auto</span> <a class="code" href="group___delegates.html#ga9314cb77365ab51d6fe4772c611921bc">call</a>(<a class="code" href="_communicator_8hpp.html#a3a0af41b6e127e7f96781ce84aa9d40e">Core</a> dest, F func) -&gt; decltype(func()) {</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="group___delegates.html#ga9314cb77365ab51d6fe4772c611921bc">call</a>(dest, func, &amp;F::operator());</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    }</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    </div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;  } <span class="comment">// namespace impl</span></div>
@@ -243,16 +243,11 @@ $(document).ready(function(){initNavTree('_delegate_base_8hpp_source.html','');}
 <div class="ttc" id="group___communication_html_ga9d165cbd8cbb54ce375f342722022a91"><div class="ttname"><a href="group___communication.html#ga9d165cbd8cbb54ce375f342722022a91">Grappa::mycore</a></div><div class="ttdeci">Core mycore()</div><div class="ttdoc">What&#39;s my core ID in this job? </div><div class="ttdef"><b>Definition:</b> <a href="_communicator_8hpp_source.html#l00352">Communicator.hpp:352</a></div></div>
 <div class="ttc" id="group___memory_html_ga55c522130968fe1140cb8505dc9eac1a"><div class="ttname"><a href="group___memory.html#ga55c522130968fe1140cb8505dc9eac1a">make_global</a></div><div class="ttdeci">GlobalAddress&lt; T &gt; make_global(T *t, Core n=Grappa::mycore())</div><div class="ttdoc">return a 2d global pointer to a local pointer on a particular core </div><div class="ttdef"><b>Definition:</b> <a href="_addressing_8hpp_source.html#l00424">Addressing.hpp:424</a></div></div>
 <div class="ttc" id="_addressing_8hpp_html"><div class="ttname"><a href="_addressing_8hpp.html">Addressing.hpp</a></div></div>
-<div class="ttc" id="namespace_grappa_1_1impl_html_a31af568ca2af311e1d8f03984c37867b"><div class="ttname"><a href="namespace_grappa_1_1impl.html#a31af568ca2af311e1d8f03984c37867b">Grappa::impl::record_network_latency</a></div><div class="ttdeci">void record_network_latency(int64_t start_time)</div><div class="ttdef"><b>Definition:</b> <a href="_delegate_base_8hpp_source.html#l00044">DelegateBase.hpp:44</a></div></div>
-<div class="ttc" id="namespace_grappa_1_1impl_html_aed652828378476dae45958142f67fec4"><div class="ttname"><a href="namespace_grappa_1_1impl.html#aed652828378476dae45958142f67fec4">Grappa::impl::Core</a></div><div class="ttdeci">int16_t Core</div><div class="ttdef"><b>Definition:</b> <a href="_task_8hpp_source.html#l00037">Task.hpp:37</a></div></div>
-<div class="ttc" id="class_grappa_1_1_full_empty_html_a16ad448a7e73fa76ba6f67dec4340569"><div class="ttname"><a href="class_grappa_1_1_full_empty.html#a16ad448a7e73fa76ba6f67dec4340569">Grappa::FullEmpty::readFF</a></div><div class="ttdeci">T readFF()</div><div class="ttdef"><b>Definition:</b> <a href="_full_empty_local_8hpp_source.html#l00104">FullEmptyLocal.hpp:104</a></div></div>
+<div class="ttc" id="_communicator_8hpp_html_a3a0af41b6e127e7f96781ce84aa9d40e"><div class="ttname"><a href="_communicator_8hpp.html#a3a0af41b6e127e7f96781ce84aa9d40e">Core</a></div><div class="ttdeci">int16_t Core</div><div class="ttdoc">Type for Core and Locale IDs. </div><div class="ttdef"><b>Definition:</b> <a href="_communicator_8hpp_source.html#l00071">Communicator.hpp:71</a></div></div>
+<div class="ttc" id="group___delegates_html_ga9314cb77365ab51d6fe4772c611921bc"><div class="ttname"><a href="group___delegates.html#ga9314cb77365ab51d6fe4772c611921bc">Grappa::delegate::call</a></div><div class="ttdeci">auto call(Core dest, F f) -&gt; AUTO_INVOKE((impl::Specializer&lt; S, C, F &gt;::call(dest, f,&amp;F::operator())))</div></div>
 <div class="ttc" id="_delegate_base_8hpp_html_a2cbde40b0a2e544910f13cae760414ba"><div class="ttname"><a href="_delegate_base_8hpp.html#a2cbde40b0a2e544910f13cae760414ba">GRAPPA_DECLARE_METRIC</a></div><div class="ttdeci">GRAPPA_DECLARE_METRIC(SimpleMetric&lt; uint64_t &gt;, delegate_short_circuits)</div></div>
 <div class="ttc" id="namespace_grappa_html_ac841f71522852e7708be1cc644f3eb2a"><div class="ttname"><a href="namespace_grappa.html#ac841f71522852e7708be1cc644f3eb2a">Grappa::send_heap_message</a></div><div class="ttdeci">ExternalCountPayloadMessage&lt; T &gt; * send_heap_message(Core dest, T t, void *payload, size_t payload_size, uint64_t *count)</div><div class="ttdef"><b>Definition:</b> <a href="_external_count_payload_message_8hpp_source.html#l00073">ExternalCountPayloadMessage.hpp:73</a></div></div>
 <div class="ttc" id="_full_empty_local_8hpp_html"><div class="ttname"><a href="_full_empty_local_8hpp.html">FullEmptyLocal.hpp</a></div></div>
-<div class="ttc" id="class_grappa_1_1_full_empty_html_a6035942238cb13ef91cbaa106e51d8d4"><div class="ttname"><a href="class_grappa_1_1_full_empty.html#a6035942238cb13ef91cbaa106e51d8d4">Grappa::FullEmpty::readFE</a></div><div class="ttdeci">T readFE()</div><div class="ttdef"><b>Definition:</b> <a href="_full_empty_local_8hpp_source.html#l00112">FullEmptyLocal.hpp:112</a></div></div>
-<div class="ttc" id="class_grappa_1_1_full_empty_html"><div class="ttname"><a href="class_grappa_1_1_full_empty.html">Grappa::FullEmpty</a></div><div class="ttdoc">Wrapper class to provide full-bit semantics for arbitrary data. </div><div class="ttdef"><b>Definition:</b> <a href="_full_empty_local_8hpp_source.html#l00041">FullEmptyLocal.hpp:41</a></div></div>
-<div class="ttc" id="namespace_grappa_1_1impl_html_ab1c20d9766ea3ed746b630c3af6c4cf6"><div class="ttname"><a href="namespace_grappa_1_1impl.html#ab1c20d9766ea3ed746b630c3af6c4cf6">Grappa::impl::record_wakeup_latency</a></div><div class="ttdeci">void record_wakeup_latency(int64_t start_time, int64_t network_time)</div><div class="ttdef"><b>Definition:</b> <a href="_delegate_base_8hpp_source.html#l00049">DelegateBase.hpp:49</a></div></div>
-<div class="ttc" id="group___delegates_html_ga8d9f7f6356be82352122157772452b0a"><div class="ttname"><a href="group___delegates.html#ga8d9f7f6356be82352122157772452b0a">Grappa::impl::call</a></div><div class="ttdeci">auto call(GlobalAddress&lt; T &gt; t, F func, R(F::*mf)(T &amp;) const) -&gt; decltype(func(*t.pointer()))</div><div class="ttdef"><b>Definition:</b> <a href="_delegate_8hpp_source.html#l00108">Delegate.hpp:108</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

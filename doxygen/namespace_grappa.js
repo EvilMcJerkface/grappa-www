@@ -1,9 +1,8 @@
 var namespace_grappa =
 [
     [ "delegate", "namespace_grappa_1_1delegate.html", "namespace_grappa_1_1delegate" ],
-    [ "impl", "namespace_grappa_1_1impl.html", "namespace_grappa_1_1impl" ],
     [ "Metrics", "namespace_grappa_1_1_metrics.html", "namespace_grappa_1_1_metrics" ],
-    [ "util", "namespace_grappa_1_1util.html", "namespace_grappa_1_1util" ],
+    [ "util", "namespace_grappa_1_1util.html", null ],
     [ "CallbackMetric", "class_grappa_1_1_callback_metric.html", "class_grappa_1_1_callback_metric" ],
     [ "CompletionEvent", "class_grappa_1_1_completion_event.html", "class_grappa_1_1_completion_event" ],
     [ "ConditionVariable", "class_grappa_1_1_condition_variable.html", "class_grappa_1_1_condition_variable" ],
@@ -40,7 +39,6 @@ var namespace_grappa =
     [ "SharedMessagePool", "class_grappa_1_1_shared_message_pool.html", "class_grappa_1_1_shared_message_pool" ],
     [ "PoolMessage", "class_grappa_1_1_pool_message.html", "class_grappa_1_1_pool_message" ],
     [ "PoolPayloadMessage", "class_grappa_1_1_pool_payload_message.html", "class_grappa_1_1_pool_payload_message" ],
-    [ "SimpleMetric", "class_grappa_1_1_simple_metric.html", "class_grappa_1_1_simple_metric" ],
     [ "SummarizingMetric", "class_grappa_1_1_summarizing_metric.html", "class_grappa_1_1_summarizing_metric" ],
     [ "SuspendedDelegate", "class_grappa_1_1_suspended_delegate.html", "class_grappa_1_1_suspended_delegate" ],
     [ "BasicScheduler", "class_grappa_1_1_basic_scheduler.html", "class_grappa_1_1_basic_scheduler" ],
