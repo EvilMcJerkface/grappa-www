@@ -50,7 +50,7 @@ publications:
 
 <div class="jumbotron">
   <h1>Grappa</h1>
-  <p class="lead">Scaling irregular applications on commodity clusters</p>
+  <p class="lead">Scaling data-intensive applications on commodity clusters</p>
   <p><a class="btn btn-lg btn-success" href="http://github.com/uwsampa/grappa" role="button"
         onclick="trackOutboundLink('http://github.com/uwsampa/grappa'); return false;">
     <img src="images/GitHub-Mark-32px.png" /> <span>Get the source</span> </a>
@@ -65,6 +65,11 @@ publications:
 Grappa makes an entire cluster look like a single, powerful, shared-memory machine. By leveraging the massive amount of concurrency in large-scale data-intensive applications, Grappa can provide this useful abstraction with high performance. Unlike classic distributed shared memory (DSM) systems, Grappa does *not* require spatial locality or data reuse to perform well.
 
 ### Platform for data-intensive applications
+
+<div class="pull-right" style="padding-left:20px">
+  <img src="images/system-stack.svg" />
+</div>
+
 Data-intensive, or "Big Data", workloads are an important class of large-scale computations. However, the commodity clusters they are run on are not well suited to these problems, requiring careful partitioning of data and computation. A diverse ecosystem of frameworks have arisen to tackle these problems, such as MapReduce, Spark, Dryad, and GraphLab, which ease development of large-scale applications by specializing to particular algorithmic structure and behavior.
 
 Grappa provides abstraction at a level high enough to subsume many performance optimizations common to these data-intensive platforms. However, its relatively low-level interface provides a convenient abstraction for building data-intensive frameworks on top of. Prototype implementations of (simplified) MapReduce, GraphLab, and a relational query engine have been built on Grappa that out-perform the original systems.
@@ -79,13 +84,13 @@ Grappa’s runtime system consists of three key components:
 
 <dl>
   <dt>Distributed shared memory (DSM)</dt>
-  <dd>Provides fine-grain access to data anywhere in the system with strong consistency guarantees.</dd><br/>
-  
+  <dd>Provides fine-grain access to data anywhere in the system with strong consistency guarantees.</dd>
+<br/>
   <dt>Tasking system</dt>
-  <dd>Supports millions of lightweight threads and global distributed work stealing for load balance.</dd><br/>
-  
+  <dd>Supports millions of lightweight threads and global distributed work stealing for load balance.</dd>
+<br/>
   <dt>Communication layer</dt>
-  <dd>Supports high throughput even for extremely small messages by delaying and aggregating them into larger network packets.</dd><br/>
+  <dd>Supports high throughput even for extremely small messages by delaying and aggregating them into larger network packets.</dd>
 </dl>
 
 ### Available to try out *now*!
