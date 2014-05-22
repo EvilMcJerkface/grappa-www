@@ -146,9 +146,8 @@ Grappa is a project group in the [Sampa Group](http://sampa.cs.washington.edu) a
   while(x=eval(x));
   //-->
   //]]>
-</script> 
-
-or join or mailing list to be informed about software releases:
+</script>
+or join our mailing list to be informed about software releases:
 
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css" />
