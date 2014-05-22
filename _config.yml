@@ -17,12 +17,14 @@ exclude: [README.md, Makefile]
 
 # Navigation bar links.
 navigation:
-    - title: Home
-      link: /
-    - title: About
-      link: "#about"
-    - title: Contact
-      link: "#contact"
-    - title:
-      link: http://github.com/uwsampa/grappa
-      icon: /images/GitHub-Mark-32px.png
+  - title: Home
+    link: /
+  - title: About
+    link: "#about"
+  - title: Contact
+    link: "#contact"
+  - title: API Docs
+    link: "/doxygen"
+  - title:
+    link: http://github.com/uwsampa/grappa
+    icon: /images/GitHub-Mark-32px.png
