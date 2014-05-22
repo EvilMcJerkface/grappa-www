@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Grappa: scaling irregular applications on commodity clusters"
+title: "Grappa: Scaling data-intensive applications on commodity clusters"
 
 people:
   - title: Graduate Students
@@ -94,7 +94,7 @@ Grappa’s runtime system consists of three key components:
 </dl>
 
 ### Available to try out *now*!
-Grappa is freely available on [Github](github.com/uwsampa/grappa) under the open source AGPL license. Anyone interested in seeing Grappa at work can follow the quick-start directions in the README to build and run it on their cluster. To learn how to write your own Grappa applications, check out the [Tutorial](https://github.com/uwsampa/grappa/blob/master/doc/tutorial/tutorial.md). Grappa is still quite young, so please don't hesitate to ask for help if you run into problems. To find answers to questions or ask new ones, please use [Github Issues](https://github.com/uwsampa/grappa/issues). Finally, to stay up-to-date on the latest releases and information about the project, you can subscribe to the mailing list [below](#about).
+Grappa is freely available on [Github](http://github.com/uwsampa/grappa) under the open source AGPL license. Anyone interested in seeing Grappa at work can follow the quick-start directions in the README to build and run it on their cluster. To learn how to write your own Grappa applications, check out the [Tutorial](https://github.com/uwsampa/grappa/blob/master/doc/tutorial/tutorial.md). Grappa is still quite young, so please don't hesitate to ask for help if you run into problems. To find answers to questions or ask new ones, please use [Github Issues](https://github.com/uwsampa/grappa/issues). Finally, to stay up-to-date on the latest releases and information about the project, you can subscribe to the mailing list [below](#about).
 
 ### Publications
 
