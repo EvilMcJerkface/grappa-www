@@ -2,6 +2,28 @@
 layout: default
 title: "Grappa: scaling irregular applications on commodity clusters"
 
+people:
+  - title: Graduate Students
+    names:
+    - name: Jacob Nelson
+      image: images/nelson.jpg
+    - name: Brandon Myers
+      image: images/myers.jpg
+    - name: Brandon Holt
+      image: images/holt.jpg
+    - name: Vincent Lee
+      image: images/lee.jpg
+  - title: Faculty
+    names:
+    - name: Simon Kahan
+      image: images/kahan.jpg
+    - name: Preston Briggs
+      image: images/briggs.jpg
+    - name: Luis Ceze
+      image: images/ceze.jpg
+    - name: Mark Oskin
+      image: images/oskin.jpg
+
 publications:
 
   - title: 'Grappa: A Latency-Tolerant Runtime for Large-Scale Irregular Applications'
@@ -94,51 +116,19 @@ Grappa’s runtime system consists of three key components:
 <a name="about"></a>
 Grappa is a project group in the [Sampa Group](http://sampa.cs.washington.edu) at the [University of Washington](http://www.washington.edu).
 
-<h5>Graduate students</h5>
+<!-- grads and faculty (names/pics) -->
+{% for p in page.people %}
+<h4>{{p.title}}</h4>
 <div class="row">
-  <div class="col-sm-1" align="center">
-  </div>
-
+  <div class="col-sm-1" align="center"></div>
+  {% for n in p.names %}
   <div class="col-sm-2" align="center">
-    <img src="images/nelson.jpg" height="100" />
-    <h5>Jacob Nelson</h5>
+    <img src="{{n.image}}" height="100" class="img-rounded" />
+    <h5>{{n.name}}</h5>
   </div>
-  <div class="col-sm-2" align="center">
-    <img src="images/myers.jpg" height="100" />
-    <h5>Brandon Myers</h5>
-  </div>
-  <div class="col-sm-2" align="center">
-    <img src="images/holt.jpg" height="100" />
-    <h5>Brandon Holt</h5>
-  </div>
+  {% endfor %}
 </div>
-
-<h5>Faculty</h5>
-<div class="row">
-  <div class="col-sm-1" align="center">
-  </div>
-
-  <div class="col-sm-2" align="center">
-    <img src="images/kahan.jpg" height="100" />
-    <h5>Simon Kahan</h5>
-  </div>
-  
-  <div class="col-sm-2" align="center">
-    <img src="images/briggs.jpg" height="100" />
-    <h5>Preston Briggs</h5>
-  </div>
-  
-  <div class="col-sm-2" align="center">
-    <img src="images/ceze.jpg" height="100" />
-    <h5>Luis Ceze</h5>
-  </div>
-  
-  <div class="col-sm-2" align="center">
-    <img src="images/oskin.jpg" height="100" />
-    <h5>Mark Oskin</h5>
-  </div>
-</div>
-
+{% endfor %}
 
 <a name="contact"></a>
 ### Contact us
