@@ -26,10 +26,16 @@ people:
 
 publications:
 
-  - title: 'Grappa: A Latency-Tolerant Runtime for Large-Scale Irregular Applications'
-    link: http://sampa.cs.washington.edu/papers/grappa-tr-2014-02.pdf
+  - title: 'Latency-Tolerant Software Distributed Shared Memory'
+    link: http://sampa.cs.washington.edu/grappa/papers/grappa-tr-14-05-03.pdf
     authors: 'Jacob Nelson, Brandon Holt, Brandon Myers, Preston Briggs, Luis Ceze, Simon Kahan, and Mark Oskin'
-    publication: 'Tech report, February 2014'
+    publication: 'Tech report, May 2014'
+
+  - title: 'Grappa: A Latency-Tolerant Runtime for Large-Scale Irregular Applications'
+    link: http://sampa.cs.washington.edu/papers/grappa-wrsc-2014.pdf
+    authors: 'Jacob Nelson, Brandon Holt, Brandon Myers, Preston Briggs, Luis Ceze, Simon Kahan, and Mark Oskin'
+    publication: 'International Workshop on Rack-Scale Computing (WRSC w/EuroSys), April 2014'
+    techreport: http://sampa.cs.washington.edu/papers/grappa-tr-2014-02.pdf
 
   - title: Flat Combining Synchronized Global Data Structures
     link: http://sampa.cs.washington.edu/papers/holt-pgas13.pdf
@@ -41,7 +47,7 @@ publications:
     authors: 'Brandon Myers, Jeremy Hyrkas, Daniel Halperin, and Bill Howe'
     publication: 'International Workshop on In-Memory Data Management and Analytics (IMDM w/ VLDB), August 2013'
 
-  - title: Crunching large graphs with commodity processors
+  - title: Crunching Large Graphs With Commodity Processors
     link: https://www.usenix.org/legacy/event/hotpar11/tech/final_files/Nelson.pdf
     authors: 'Jacob Nelson, Brandon Myers, A. H. Hunter, Preston Briggs, Luis Ceze, Carl Ebeling, Dan Grossman, Simon Kahan, Mark Oskin'
     publication: 'USENIX Workshop on Hot Topics in Parallelism (HOTPAR), June 2011'
@@ -96,12 +102,12 @@ Grappa’s runtime system consists of three key components:
 ### Try it out now!
 Grappa is freely available on [Github](http://github.com/uwsampa/grappa) under the open source AGPL license. Anyone interested in seeing Grappa at work can follow the quick-start directions in the README to build and run it on their cluster. To learn how to write your own Grappa applications, check out the [Tutorial](https://github.com/uwsampa/grappa/blob/master/doc/tutorial/tutorial.md).
 
-Grappa is still quite young, so please don't hesitate to ask for help if you run into problems. To find answers to questions or ask new ones, please use [Github Issues](https://github.com/uwsampa/grappa/issues). The developers hang on in the ```#grappa.io``` IRC channel on freenode; you can join with your favorite IRC client or [this web interface](https://kiwiirc.com/client/chat.freenode.net/#grappa.io). Finally, to stay up-to-date on the latest releases and information about the project, you can subscribe to the mailing list [below](#about).
+Grappa is still quite young, so please don't hesitate to ask for help if you run into problems. To find answers to questions or ask new ones, please use [Github Issues](https://github.com/uwsampa/grappa/issues). The developers hang out in the ```#grappa.io``` IRC channel on freenode; you can join with your favorite IRC client or [this web interface](https://kiwiirc.com/client/chat.freenode.net/#grappa.io). Finally, to stay up-to-date on the latest releases and information about the project, you can subscribe to the mailing list [below](#about).
 
 ### Publications
 
 {% for pub in page.publications %}
-<a href="{{ pub.link }}" onclick="trackOutboundLink('{{ pub.link }}'); return false;">{{ pub.title }}</a>.<br/>
+<a href="{{ pub.link }}" onclick="trackOutboundLink('{{ pub.link }}'); return false;">{{ pub.title }}</a>. {% if pub.techreport %}<a href="{{ pub.techreport }}" onclick="trackOutboundLink('{{ pub.techreport }}'); return false;">(Expanded tech report)</a>{% endif %}<br/>
 {{pub.authors}}<br/>
 {{ pub.publication }}
 {% endfor %}
