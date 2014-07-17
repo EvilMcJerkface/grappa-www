@@ -114,7 +114,7 @@ Grappa is still quite young, so please don't hesitate to ask for help if you run
 
 ### Other documentation
 <p>
-  <a href="http://grappa.io/docs/grappa-overview-jan2014.pdf"
+  <a href="http://grappa.io/docs/grappa-uwt-may2014.pdf"
      onclick="trackOutboundLink('http://grappa.io/docs/grappa-uwt-may2014.pdf'); return false;">Slides from a recent talk</a>
 </p>
 <p>
