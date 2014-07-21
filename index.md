@@ -54,18 +54,32 @@ publications:
   
 ---
 
-<div class="jumbotron">
-  <h1>Grappa</h1>
-  <p class="lead">Scaling data-intensive applications on commodity clusters</p>
-  <p><a class="btn btn-lg btn-success" href="http://github.com/uwsampa/grappa" role="button"
-        onclick="trackOutboundLink('http://github.com/uwsampa/grappa'); return false;">
-    <img src="images/GitHub-Mark-32px.png" /> <span>Get the source</span> </a>
-  </p>
+<div class="page-header">
+  <div class="pull-left" style="padding-left:20px">
+    <img src="images/logo.svg" />
+  </div>
+  <h1>
+    Grappa <br/>
+    <small>Scaling data-intensive applications on commodity clusters</small>
+  </h1>
 </div>
 
-<div class="alert alert-info">
-  <p><strong><a class="" href="#contact" role="button">Join our mailing list</a></strong> to be notified of future releases, tutorials, and other tools.</p>
+<div class="btn-toolbar">
+
+<a type="button" class="btn btn-default btn-lg" href="http://github.com/uwsampa/grappa">
+  <span class="glyphicon glyphicon-download"></span> Get the source
+</a>
+
+<a type="button" class="btn btn-default btn-lg" href="http://sampa.cs.washington.edu/grappa/papers/grappa-tr-14-05-03.pdf">
+  <span class="glyphicon glyphicon-file"></span> Read the latest paper
+</a>
+
+<a type="button" class="btn btn-default btn-lg" href="#contact">
+  <span class="glyphicon glyphicon-send"></span> Join our mailing list
+</a>
+
 </div>
+
 
 ### A modern take on distributed shared memory
 Grappa makes an entire cluster look like a single, powerful, shared-memory machine. By leveraging the massive amount of concurrency in large-scale data-intensive applications, Grappa can provide this useful abstraction with high performance. Unlike classic distributed shared memory (DSM) systems, Grappa does *not* require spatial locality or data reuse to perform well.

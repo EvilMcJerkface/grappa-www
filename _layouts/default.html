@@ -50,7 +50,7 @@
     
     <div class="container">
       <div class="header">
-        <ul class="nav nav-pills pull-right">
+        <ul class="nav nav-pills navbar-right">
           {% assign shorturl = page.url | replace:'index.html','' %}
           {% for item in site.navigation %}
             <li {% if item.link == shorturl %}class="active"{% endif %}>
@@ -72,7 +72,6 @@
           {% endfor %}
         </ul>
         <!-- <h2 class="text-muted">Grappa</h2> -->
-        <h2><small>Grappa</small></h2>
       </div>
     
       {{ content }}
