@@ -14,7 +14,7 @@
 	<key>BackgroundGraphic</key>
 	<dict>
 		<key>Bounds</key>
-		<string>{{0, 0}, {575.99997711181641, 733}}</string>
+		<string>{{0, 0}, {576, 733}}</string>
 		<key>Class</key>
 		<string>SolidGraphic</string>
 		<key>ID</key>
@@ -46,7 +46,7 @@
 	<key>Creator</key>
 	<string>Brandon Holt</string>
 	<key>DisplayScale</key>
-	<string>1 0/72 in = 1 0/72 in</string>
+	<string>1 0/72 in = 1.0000 in</string>
 	<key>GraphDocumentVersion</key>
 	<integer>8</integer>
 	<key>GraphicsList</key>
@@ -631,6 +631,8 @@
 					<true/>
 					<key>TailArrow</key>
 					<string>0</string>
+					<key>Width</key>
+					<real>2</real>
 				</dict>
 			</dict>
 			<key>Tail</key>
@@ -680,6 +682,8 @@
 					<true/>
 					<key>TailArrow</key>
 					<string>0</string>
+					<key>Width</key>
+					<real>2</real>
 				</dict>
 			</dict>
 			<key>Tail</key>
@@ -729,6 +733,8 @@
 					<true/>
 					<key>TailArrow</key>
 					<string>0</string>
+					<key>Width</key>
+					<real>2</real>
 				</dict>
 			</dict>
 			<key>Tail</key>
@@ -778,6 +784,8 @@
 					<true/>
 					<key>TailArrow</key>
 					<string>0</string>
+					<key>Width</key>
+					<real>2</real>
 				</dict>
 			</dict>
 			<key>Tail</key>
@@ -827,6 +835,8 @@
 					<true/>
 					<key>TailArrow</key>
 					<string>0</string>
+					<key>Width</key>
+					<real>2</real>
 				</dict>
 			</dict>
 			<key>Tail</key>
@@ -869,6 +879,8 @@
 					<true/>
 					<key>TailArrow</key>
 					<string>0</string>
+					<key>Width</key>
+					<real>2</real>
 				</dict>
 			</dict>
 			<key>Tail</key>
@@ -918,6 +930,8 @@
 					<true/>
 					<key>TailArrow</key>
 					<string>0</string>
+					<key>Width</key>
+					<real>2</real>
 				</dict>
 			</dict>
 			<key>Tail</key>
@@ -967,6 +981,8 @@
 					<true/>
 					<key>TailArrow</key>
 					<string>0</string>
+					<key>Width</key>
+					<real>2</real>
 				</dict>
 			</dict>
 			<key>Tail</key>
@@ -1016,6 +1032,8 @@
 					<true/>
 					<key>TailArrow</key>
 					<string>0</string>
+					<key>Width</key>
+					<real>2</real>
 				</dict>
 			</dict>
 			<key>Tail</key>
@@ -1065,6 +1083,8 @@
 					<true/>
 					<key>TailArrow</key>
 					<string>0</string>
+					<key>Width</key>
+					<real>2</real>
 				</dict>
 			</dict>
 			<key>Tail</key>
@@ -1114,6 +1134,8 @@
 					<true/>
 					<key>TailArrow</key>
 					<string>0</string>
+					<key>Width</key>
+					<real>2</real>
 				</dict>
 			</dict>
 			<key>Tail</key>
@@ -1163,6 +1185,8 @@
 					<true/>
 					<key>TailArrow</key>
 					<string>0</string>
+					<key>Width</key>
+					<real>2</real>
 				</dict>
 			</dict>
 			<key>Tail</key>
@@ -1205,6 +1229,8 @@
 					<true/>
 					<key>TailArrow</key>
 					<string>0</string>
+					<key>Width</key>
+					<real>2</real>
 				</dict>
 			</dict>
 			<key>Tail</key>
@@ -1345,7 +1371,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2014-07-18 07:14:47 +0000</string>
+	<string>2014-07-21 02:32:52 +0000</string>
 	<key>Modifier</key>
 	<string>Brandon Holt</string>
 	<key>NotesVisible</key>
@@ -1376,7 +1402,7 @@
 		<key>NSPaperSize</key>
 		<array>
 			<string>size</string>
-			<string>{611.99997711181641, 792}</string>
+			<string>{612, 792}</string>
 		</array>
 		<key>NSPrintReverseOrientation</key>
 		<array>
