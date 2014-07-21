@@ -64,7 +64,7 @@ publications:
   </h1>
 </div>
 
-<div class="btn-toolbar">
+<div class="btn-grp">
 
 <a type="button" class="btn btn-default btn-lg" href="http://github.com/uwsampa/grappa">
   <span class="glyphicon glyphicon-download"></span> Get the source
@@ -86,9 +86,7 @@ Grappa makes an entire cluster look like a single, powerful, shared-memory machi
 
 ### Platform for data-intensive applications
 
-<div class="pull-right" style="padding-left:20px">
-  <img src="images/system-stack.svg" />
-</div>
+<img class="img-responsive pull-right" src="images/system-stack.svg" />
 
 Data-intensive, or "Big Data", workloads are an important class of large-scale computations. However, the commodity clusters they are run on are not well suited to these problems, requiring careful partitioning of data and computation. A diverse ecosystem of frameworks have arisen to tackle these problems, such as MapReduce, Spark, Dryad, and GraphLab, which ease development of large-scale applications by specializing to particular algorithmic structure and behavior.
 
