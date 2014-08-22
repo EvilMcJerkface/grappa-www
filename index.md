@@ -27,7 +27,7 @@ people:
 publications:
 
   - title: 'Latency-Tolerant Software Distributed Shared Memory'
-    link: http://sampa.cs.washington.edu/grappa/papers/grappa-tr-14-05-03.pdf
+    link: http://sampa.cs.washington.edu/papers/grappa-tr-14-05-03.pdf
     authors: 'Jacob Nelson, Brandon Holt, Brandon Myers, Preston Briggs, Luis Ceze, Simon Kahan, and Mark Oskin'
     publication: 'Tech report, May 2014'
 
@@ -70,7 +70,7 @@ publications:
   <span class="glyphicon glyphicon-download"></span> Get the source
 </a>
 
-<a type="button" class="btn btn-default btn-lg" href="http://sampa.cs.washington.edu/grappa/papers/grappa-tr-14-05-03.pdf">
+<a type="button" class="btn btn-default btn-lg" href="http://sampa.cs.washington.edu/papers/grappa-tr-14-05-03.pdf">
   <span class="glyphicon glyphicon-file"></span> Read the latest paper
 </a>
 
