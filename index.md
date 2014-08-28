@@ -31,6 +31,11 @@ publications:
     authors: 'Jacob Nelson, Brandon Holt, Brandon Myers, Preston Briggs, Luis Ceze, Simon Kahan, and Mark Oskin'
     publication: 'Tech report, May 2014'
 
+  - title: 'Alembic: Automatic Locality Extraction via Migration'
+    link: http://homes.cs.washington.edu/~bholt/pubs/oopsla14-alembic.pdf
+    authors: 'Brandon Holt, Preston Briggs, Luis Ceze, Mark Oskin'
+    publication: 'OOPSLA 2014'
+
   - title: 'Grappa: A Latency-Tolerant Runtime for Large-Scale Irregular Applications'
     link: http://sampa.cs.washington.edu/papers/grappa-wrsc-2014.pdf
     authors: 'Jacob Nelson, Brandon Holt, Brandon Myers, Preston Briggs, Luis Ceze, Simon Kahan, and Mark Oskin'
