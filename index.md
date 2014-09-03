@@ -32,7 +32,7 @@ publications:
     publication: 'Tech report, May 2014'
 
   - title: 'Alembic: Automatic Locality Extraction via Migration'
-    link: http://homes.cs.washington.edu/~bholt/pubs/oopsla14-alembic.pdf
+    link: http://sampa.cs.washington.edu/papers/oopsla14-alembic.pdf
     authors: 'Brandon Holt, Preston Briggs, Luis Ceze, Mark Oskin'
     publication: 'OOPSLA 2014'
 
