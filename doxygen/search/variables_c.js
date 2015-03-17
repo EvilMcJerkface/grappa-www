@@ -5,12 +5,15 @@ var searchData=
   ['master',['master',['../class_grappa_1_1_global_counter.html#af2a4ad5cbb3f2dcdfdce70cfd5cb55d8',1,'Grappa::GlobalCounter::master()'],['../class_grappa_1_1_global_vector.html#a82511fbd9ce2e0cb52fe28fce4f07f9f',1,'Grappa::GlobalVector::master()'],['../group___containers.html#gae214c4f2d33524de8eb8bc336d6f6a67',1,'Grappa::MASTER()']]],
   ['master_5fthread',['master_thread',['../namespace_grappa.html#a3e3907937e4e1aca6bc5019ec38687e1',1,'Grappa']]],
   ['max',['max',['../class_grappa_1_1_summarizing_metric.html#a726725714a2e5b310e0931208df7f490',1,'Grappa::SummarizingMetric']]],
-  ['max_5falloc',['max_alloc',['../class_grappa_1_1_piggyback_stack.html#a6a2921345495c4872d771fae6428ca26',1,'Grappa::PiggybackStack']]],
   ['max_5fmessage_5fsize',['MAX_MESSAGE_SIZE',['../_collective_8hpp.html#a2da613f8d4f8b9c30ce0641041e8bd91',1,'Collective.hpp']]],
+  ['max_5fpath_5flength',['max_path_length',['../_tuple_graph_8cpp.html#ab100096fef6121ea90290da5758a25ce',1,'TupleGraph.cpp']]],
   ['max_5fvalue',['max_value',['../class_grappa_1_1_counting_semaphore.html#a662c76d82899e4da791346189cfe0778',1,'Grappa::CountingSemaphore']]],
-  ['maximum_5fmessage_5fpayload_5fsize',['maximum_message_payload_size',['../class_communicator.html#a5a9ddad0f0e54f4524ca4f63f5012bc1',1,'Communicator']]],
   ['mean',['mean',['../class_grappa_1_1_summarizing_metric.html#af993012979ebf3aacaf0b233f45f8bb7',1,'Grappa::SummarizingMetric']]],
+  ['message_5fpool',['message_pool',['../namespace_grappa_1_1_shared_message_pool.html#ac25c60f4d10243b169b72561dc71c852',1,'Grappa::SharedMessagePool']]],
   ['messages_5f',['messages_',['../_r_d_m_a_aggregator_8hpp.html#a56108de0d467c77ff0bcd80d5c3345fb',1,'RDMAAggregator.hpp']]],
   ['min',['min',['../class_grappa_1_1_summarizing_metric.html#ab10d8df94bcd03508253383aec668699',1,'Grappa::SummarizingMetric']]],
+  ['min_5fstack_5fsize',['MIN_STACK_SIZE',['../_worker_8hpp.html#a265c70ac4aea1722bb1ed9a0e4a124d8',1,'Worker.hpp']]],
+  ['mycore',['mycore',['../class_communicator.html#a173fe24fd5667a30f36e59691cd4946f',1,'Communicator']]],
+  ['mylocale',['mylocale',['../class_communicator.html#a84ef29de56b0cfa60a31ad53e025d492',1,'Communicator']]],
   ['mylocale_5f',['mylocale_',['../_r_d_m_a_aggregator_8hpp.html#aedcca8259bd2fe63100191d91ec96c18',1,'RDMAAggregator.hpp']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['satisfied',['SATISFIED',['../namespace_grappa.html#acb42d77875bd5cf444f1f3160ca5db76ad9bdb7f467982d4a285d4e65baf771fc',1,'Grappa']]]
+  ['or',['Or',['../_reducer_8hpp.html#a83a796198571b0d978a1b57faf77b9e0a3a2d5fe857d8f9541136a124c2edec6c',1,'Reducer.hpp']]]
 ];

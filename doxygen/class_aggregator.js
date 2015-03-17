@@ -14,6 +14,6 @@ var class_aggregator =
     [ "poll", "class_aggregator.html#a0af557f8ed7bc938de13d43642726901", null ],
     [ "remaining_size", "class_aggregator.html#a990a2018b61467b5ab1df326020d7756", null ],
     [ "update_target_for_node", "class_aggregator.html#af4b878d8fc6f8b8f98656bd00f43e5d6", null ],
-    [ "Aggregator_deaggregate_am", "class_aggregator.html#aab17e3dcdcc7f7ca61fe4d1a8d41efb8", null ],
+    [ "Aggregator_deaggregate_am", "class_aggregator.html#a47991aeea7aca3832acc087b7befd72a", null ],
     [ "stats", "class_aggregator.html#a366fa4cb53aeed3f525285f9e9ba8194", null ]
 ];

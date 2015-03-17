@@ -30,6 +30,7 @@ var group___synchronization =
     [ "FullEmpty", "class_grappa_1_1_full_empty.html", [
       [ "FullEmpty", "class_grappa_1_1_full_empty.html#aeef889e6387d3b441f71b00d36dfb058", null ],
       [ "FullEmpty", "class_grappa_1_1_full_empty.html#a6a0384d6685d83c215aa01f5727bdb5b", null ],
+      [ "block_until", "class_grappa_1_1_full_empty.html#ac12183b0e9cddf3c5f0e7eab76956938", null ],
       [ "empty", "class_grappa_1_1_full_empty.html#af0bc0232cbbcd0e7281bcc126857ac0a", null ],
       [ "full", "class_grappa_1_1_full_empty.html#ad9fdd5dbb22d9f2c8323e84675daacc7", null ],
       [ "readFE", "class_grappa_1_1_full_empty.html#a6035942238cb13ef91cbaa106e51d8d4", null ],
@@ -41,14 +42,16 @@ var group___synchronization =
       [ "writeXF", "class_grappa_1_1_full_empty.html#a357efec6b2370febb946fc68ad739301", null ],
       [ "raw_", "class_grappa_1_1_full_empty.html#a04bf349e77da9cafa9826a0f95bea751", null ],
       [ "state_", "class_grappa_1_1_full_empty.html#a85e0a33a79b8931b18d496bb63afcd0a", null ],
+      [ "t_", "class_grappa_1_1_full_empty.html#a88b2a96ab094444cb3b5825be4c80b56", null ],
       [ "waiters_", "class_grappa_1_1_full_empty.html#a93c63031073039a11407cfdc68d97c49", null ]
     ] ],
     [ "GlobalCompletionEvent", "class_grappa_1_1_global_completion_event.html", [
-      [ "GlobalCompletionEvent", "class_grappa_1_1_global_completion_event.html#a5e300d9962d3067a7b4ed1ddecb2365c", null ],
+      [ "GlobalCompletionEvent", "class_grappa_1_1_global_completion_event.html#a922786631f9873016a7aeb455ae9bb51", null ],
       [ "~GlobalCompletionEvent", "class_grappa_1_1_global_completion_event.html#adc7497c912d9281d6a4e3fa93aacd9d9", null ],
       [ "complete", "class_grappa_1_1_global_completion_event.html#a02ca02652c49c2a7d91d0493ce58501e", null ],
       [ "enroll", "class_grappa_1_1_global_completion_event.html#aee80a4f670e09a9f9c104f3787a88cfd", null ],
       [ "get_shared_ptr", "class_grappa_1_1_global_completion_event.html#a37698c3dcd0b8ab99e0529a66b488242", null ],
+      [ "incomplete", "class_grappa_1_1_global_completion_event.html#a5914d1a940c04b5ec49b6d006831e561", null ],
       [ "reset", "class_grappa_1_1_global_completion_event.html#a3349271e1290a48e45bd4dfd69313d7c", null ],
       [ "send_completion", "class_grappa_1_1_global_completion_event.html#abdb75a4a41c11679184a26236c1b12d5", null ],
       [ "set_shared_ptr", "class_grappa_1_1_global_completion_event.html#a129292dc2cec64a09ffbaf878ab00ce9", null ],
@@ -57,7 +60,6 @@ var group___synchronization =
     [ "add_waiter", "group___synchronization.html#ga32f0284539cca3dc00915931b86a1cb3", null ],
     [ "barrier", "group___synchronization.html#gab6c76d75bef0d7b03eb1b9b8ded580d8", null ],
     [ "broadcast", "group___synchronization.html#ga7cf72c5ef30262df14f5406d790dc798", null ],
-    [ "comm_barrier", "group___synchronization.html#ga5fda21418928143344e78bbee270931a", null ],
     [ "complete", "group___synchronization.html#gad0f5511c9e55d6d5cd3add33bf00d527", null ],
     [ "complete", "group___synchronization.html#ga4ba30941b3c166c8eeeee3d31a438d35", null ],
     [ "complete", "group___synchronization.html#ga6537761b39f5595a3d754483061a763c", null ],
@@ -67,7 +69,10 @@ var group___synchronization =
     [ "fill_remote", "group___synchronization.html#ga08cc992debd2459c04c2412361cb72f7", null ],
     [ "get_value", "group___synchronization.html#gaaa921e944ca0d46b3cd144add50d273b", null ],
     [ "increment", "group___synchronization.html#ga0ea422ccad00a9098e197c9e8c9951db", null ],
+    [ "readFE", "group___synchronization.html#ga25fe08f26290a226f10c329e1102a5b6", null ],
     [ "readFF", "group___synchronization.html#ga9cef2af61c52a6bea65625de747ca8b3", null ],
+    [ "readFF", "group___synchronization.html#ga38a19bdec882607fc363f0880fe6b954", null ],
+    [ "readXX", "group___synchronization.html#gacb97e74af74ce0b9b664ea681d8f9b91", null ],
     [ "send_completion", "group___synchronization.html#ga6b8e8e7035b2e57a779a02ec835fc24f", null ],
     [ "signal", "group___synchronization.html#gabcf3b681a173156001dc47e12c081de9", null ],
     [ "signal", "group___synchronization.html#ga6f13ef84c9e8693d675d10428cf6c776", null ],
@@ -76,6 +81,8 @@ var group___synchronization =
     [ "try_decrement", "group___synchronization.html#ga80fcd0303be8f096417ed05a4f46cb78", null ],
     [ "wait", "group___synchronization.html#ga0e49ee2c2ae50e793e427b0fcfa842f9", null ],
     [ "wait", "group___synchronization.html#ga4241b1cbe305caf3ca08d2fea8468edf", null ],
+    [ "writeEF", "group___synchronization.html#ga63f6c01b0bc1fbb8f3a8b01177257bca", null ],
+    [ "writeFF", "group___synchronization.html#ga952c1e020c17e0264d3d738df66f3f8e", null ],
     [ "writeXF", "group___synchronization.html#ga27dbd4448ca94a3d7b58759f4288c6e6", null ],
-    [ "barrier_cv", "group___synchronization.html#ga46d200566e9346ab9bd22e9cb2680cad", null ]
+    [ "writeXF", "group___synchronization.html#gad306de5c289de2f249e814551a62d85b", null ]
 ];

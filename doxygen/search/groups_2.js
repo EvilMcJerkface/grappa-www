@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['loops',['Loops',['../group___loops.html',1,'']]]
+  ['graph',['Graph',['../group___graph.html',1,'']]]
 ];

@@ -1,7 +1,7 @@
 var _parallel_loop_8hpp =
 [
-    [ "FORALL_HERE_OVERLOAD", "_parallel_loop_8hpp.html#ga26d8f38beec11c2ac6ca0dcb21d61535", null ],
-    [ "FORALL_OVERLOAD", "_parallel_loop_8hpp.html#ga496ac706b889a39151f5f230e1293c1e", null ],
+    [ "FORALL_HERE_OVERLOAD", "group___loops.html#ga26d8f38beec11c2ac6ca0dcb21d61535", null ],
+    [ "FORALL_OVERLOAD", "group___loops.html#ga496ac706b889a39151f5f230e1293c1e", null ],
     [ "cores_with_elements", "_parallel_loop_8hpp.html#gae0930fb0b5ce9c40ceb40f26e5c3be4a", null ],
     [ "DECLARE_int64", "_parallel_loop_8hpp.html#a8f08216fd22ad99d10636f1135220283", null ],
     [ "default_gce", "_parallel_loop_8hpp.html#ga13d0c5158646eeaac0bdcbe406abffe0", null ],

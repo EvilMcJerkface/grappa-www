@@ -1,12 +1,12 @@
 var _message_base_8hpp =
 [
-    [ "FPAddr", "union_f_p_addr.html", "union_f_p_addr" ],
     [ "Core", "_message_base_8hpp.html#a3a0af41b6e127e7f96781ce84aa9d40e", null ],
     [ "block_until_sent", "_message_base_8hpp.html#a9cca58a036dca2aee76b8e4a0bb2853f", null ],
     [ "delete_after_send", "_message_base_8hpp.html#ad15611aa2ef7321173db4df239b37749", null ],
     [ "deliver_locally", "_message_base_8hpp.html#af87282948850927b1e97e39fe8cd534c", null ],
     [ "enqueue", "_message_base_8hpp.html#a65c23553ddcbbaf8e5713aff6882ce45", null ],
     [ "enqueue", "_message_base_8hpp.html#a1047a33b971c1bfb3c285dbee8416a73", null ],
+    [ "free", "_message_base_8hpp.html#ga10f9c1f8a7a57a03d877938950bb97ac", null ],
     [ "legacy_send", "_message_base_8hpp.html#a8f2a74e83b82dcb0843f0f4328291fff", null ],
     [ "locale_enqueue", "_message_base_8hpp.html#a9ab1c403a98a73f9b7399269dd31cdb0", null ],
     [ "locale_enqueue", "_message_base_8hpp.html#a377b637d31ddc4032dc591389d06b384", null ],
@@ -29,13 +29,11 @@ var _message_base_8hpp =
     [ "cv_", "_message_base_8hpp.html#ae4930eec9192061740066ddf6ecfe4fe", null ],
     [ "delete_after_send_", "_message_base_8hpp.html#ad8676cae98dbe23d3d1345e28783c359", null ],
     [ "destination_", "_message_base_8hpp.html#a1a8909b8ac08e5ca711dc12d1dad105b", null ],
-    [ "extra", "_message_base_8hpp.html#ad23f6f8792331eed66b23326e0133474", null ],
     [ "is_delivered_", "_message_base_8hpp.html#a79797e25158e55c73fea76e6771af23c", null ],
     [ "is_enqueued_", "_message_base_8hpp.html#a48d6d931655b1335292554272838431f", null ],
     [ "is_moved_", "_message_base_8hpp.html#a7618cccd33a5be587c824dd9cb64b372", null ],
     [ "is_sent_", "_message_base_8hpp.html#a57d3673b6023f89311088e9f770de225", null ],
     [ "next_", "_message_base_8hpp.html#a3d57f5693731b29346230a567d13bcd4", null ],
-    [ "pool", "_message_base_8hpp.html#a269c3935f8bc66db70bccdd02cb05e3c", null ],
     [ "prefetch_", "_message_base_8hpp.html#a660472f50aff2fb5966a55507f52db54", null ],
     [ "raw_", "_message_base_8hpp.html#a9f6beb7330cc845fe7bc80cb97b62f1b", null ],
     [ "source_", "_message_base_8hpp.html#a3bc9721d369bf9439b67a1b3c0037df6", null ]

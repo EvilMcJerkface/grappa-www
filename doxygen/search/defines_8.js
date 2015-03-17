@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['legacy_5fsend',['LEGACY_SEND',['../_message_base_impl_8hpp.html#a737bcb300b22769078696a4fa323989d',1,'MessageBaseImpl.hpp']]]
+  ['home_5fnode',['HOME_NODE',['../_global_queue_8hpp.html#a0f4163e1a97ad515ab7272d174bf6ff9',1,'GlobalQueue.hpp']]]
 ];

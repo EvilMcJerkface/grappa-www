@@ -9,8 +9,9 @@ var searchData=
   ['callbackmetric',['CallbackMetric',['../class_grappa_1_1_callback_metric.html',1,'Grappa']]],
   ['cell',['Cell',['../struct_grappa_1_1_global_hash_map_1_1_cell.html',1,'Grappa::GlobalHashMap']]],
   ['cell',['Cell',['../struct_grappa_1_1_global_hash_set_1_1_cell.html',1,'Grappa::GlobalHashSet']]],
+  ['cmpelement',['CmpElement',['../class_cmp_element.html',1,'']]],
   ['communicator',['Communicator',['../class_communicator.html',1,'']]],
-  ['communicatormetrics',['CommunicatorMetrics',['../class_communicator_metrics.html',1,'']]],
+  ['communicatorcontext',['CommunicatorContext',['../struct_communicator_context.html',1,'']]],
   ['completionevent',['CompletionEvent',['../class_grappa_1_1_completion_event.html',1,'Grappa']]],
   ['conditionvariable',['ConditionVariable',['../class_grappa_1_1_condition_variable.html',1,'Grappa']]],
   ['countingsemaphore',['CountingSemaphore',['../class_grappa_1_1_counting_semaphore.html',1,'Grappa']]]

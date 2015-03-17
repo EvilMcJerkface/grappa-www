@@ -1,10 +1,12 @@
 var _r_d_m_a_aggregator_8cpp =
 [
-    [ "DOUBLE_LINE_PREFETCH", "_r_d_m_a_aggregator_8cpp.html#ac10414c4e3208d4264a3e86af06b00d1", null ],
+    [ "DECLARE_int64", "_r_d_m_a_aggregator_8cpp.html#a70f73dd720522cfc7054732d2e358ae9", null ],
+    [ "DECLARE_int64", "_r_d_m_a_aggregator_8cpp.html#adc992ffb80c7276712d7302df6ff81a1", null ],
+    [ "DEFINE_bool", "_r_d_m_a_aggregator_8cpp.html#a9576fb0bfc27caa717b8d52554a6f332", null ],
     [ "DEFINE_bool", "_r_d_m_a_aggregator_8cpp.html#a0ff87736d5bac6465ef2a8aae662403a", null ],
-    [ "DEFINE_int64", "_r_d_m_a_aggregator_8cpp.html#a761145c1dd42775917f990ab618a3a95", null ],
-    [ "DEFINE_int64", "_r_d_m_a_aggregator_8cpp.html#adfd2cdd25baa7deee7f6d91222e7eeb3", null ],
-    [ "DEFINE_int64", "_r_d_m_a_aggregator_8cpp.html#a7dae7220d2da98663f008568e2e5a72b", null ],
+    [ "DEFINE_int64", "_r_d_m_a_aggregator_8cpp.html#a7fbbbb5a46c8a17dc82052f40522b8e0", null ],
+    [ "DEFINE_int64", "_r_d_m_a_aggregator_8cpp.html#a6673a584b178b0cf6b21348d8c1c414c", null ],
+    [ "DEFINE_int64", "_r_d_m_a_aggregator_8cpp.html#afd30b98a6dbfac9ef7dbef3089688c31", null ],
     [ "DEFINE_int64", "_r_d_m_a_aggregator_8cpp.html#a6a9bf047f653df34dee6f55a2b356721", null ],
     [ "DEFINE_string", "_r_d_m_a_aggregator_8cpp.html#a88ea963ad7e114cddb3ab83c6c20e262", null ],
     [ "GRAPPA_DEFINE_METRIC", "_r_d_m_a_aggregator_8cpp.html#a895ebbc6d6820edee40801446690049f", null ],

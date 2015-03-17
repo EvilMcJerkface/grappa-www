@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['metriclist',['MetricList',['../namespace_grappa.html#a1b13a76f91c8d699d04a57ca34c9f206',1,'Grappa']]]
+  ['locale',['Locale',['../_communicator_8hpp.html#a6ecf8097f2a94b9da0f855a386d4570b',1,'Communicator.hpp']]]
 ];
