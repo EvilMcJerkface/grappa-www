@@ -41,7 +41,6 @@ publications:
     authors: 'Brandon Myers, Daniel Halperin, Jacob Nelson, Mark Oskin, Luis Ceze, Bill Howe'
     publication: 'Tech report, October 2014'
 
-  
   - title: 'Grappa: A Latency-Tolerant Runtime for Large-Scale Irregular Applications'
     link: http://sampa.cs.washington.edu/papers/grappa-wrsc-2014.pdf
     authors: 'Jacob Nelson, Brandon Holt, Brandon Myers, Preston Briggs, Luis Ceze, Simon Kahan, and Mark Oskin'
