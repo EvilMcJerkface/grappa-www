@@ -2,6 +2,7 @@ var _r_d_m_a_aggregator_8hpp =
 [
     [ "Core", "_r_d_m_a_aggregator_8hpp.html#a2d83baf92a7c7db4fe0db5a99b72ffc5", null ],
     [ "CoreData", "_r_d_m_a_aggregator_8hpp.html#a22231aef3cacd8708cf8835343628a76", null ],
+    [ "DECLARE_bool", "_r_d_m_a_aggregator_8hpp.html#ab242f540eaba5e7948c0843444d68fe6", null ],
     [ "DECLARE_int64", "_r_d_m_a_aggregator_8hpp.html#ab021ff4b9675cff7e8086c312d6802fc", null ],
     [ "DECLARE_int64", "_r_d_m_a_aggregator_8hpp.html#af8cb5e0002f3c4743081f468eab7b0d8", null ],
     [ "GRAPPA_DECLARE_METRIC", "_r_d_m_a_aggregator_8hpp.html#aad8ff3b975fb029b8d3cba7783f69116", null ],

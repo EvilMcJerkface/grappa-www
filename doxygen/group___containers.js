@@ -76,6 +76,7 @@ var group___containers =
     [ "memcpy< void >", "group___containers.html#ga66050c7210e15962b855d514842c3a88", null ],
     [ "memcpy_async", "group___containers.html#ga97ac566b2b1886d9c51123ddd9a2eede", null ],
     [ "memset", "group___containers.html#gac5a9df86f535f81420219d9dfcab5584", null ],
+    [ "memset", "group___containers.html#gadf1e28a91749a97c58d6b1db21d2d607", null ],
     [ "prefix_sum", "group___containers.html#ga257b0d2c3a3432a0f1f8c6037390e3d2", null ],
     [ "GRAPPA_BLOCK_ALIGNED", "group___containers.html#gabbe1235a6aa33dbc8145efff8a0c4cd7", null ],
     [ "MASTER", "group___containers.html#gae214c4f2d33524de8eb8bc336d6f6a67", null ]

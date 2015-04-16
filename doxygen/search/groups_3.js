@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['memory',['Memory',['../group___memory.html',1,'']]]
+  ['loops',['Loops',['../group___loops.html',1,'']]]
 ];

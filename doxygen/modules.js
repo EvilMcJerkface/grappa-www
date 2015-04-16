@@ -9,5 +9,6 @@ var modules =
     [ "Collectives", "group___collectives.html", "group___collectives" ],
     [ "Communication", "group___communication.html", "group___communication" ],
     [ "Tasking", "group___tasking.html", "group___tasking" ],
+    [ "Graph", "group___graph.html", "group___graph" ],
     [ "Loops", "group___loops.html", "group___loops" ]
 ];

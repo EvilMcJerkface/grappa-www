@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['locale',['Locale',['../_communicator_8hpp.html#a6ecf8097f2a94b9da0f855a386d4570b',1,'Communicator.hpp']]]
+  ['initfn',['InitFn',['../class_grappa_1_1_string_metric.html#ac4e3eba9e860e413017e3e2ed8ecdabd',1,'Grappa::StringMetric']]]
 ];

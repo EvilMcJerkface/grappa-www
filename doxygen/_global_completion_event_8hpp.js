@@ -4,6 +4,7 @@ var _global_completion_event_8hpp =
     [ "complete", "_global_completion_event_8hpp.html#ga6537761b39f5595a3d754483061a763c", null ],
     [ "CompletionMessage", "_global_completion_event_8hpp.html#a16c6c356d52d62d2f10461928d81f742", null ],
     [ "DECLARE_bool", "_global_completion_event_8hpp.html#a9a5e6ffd036472ab14de72943cf00095", null ],
+    [ "DECLARE_bool", "_global_completion_event_8hpp.html#ab242f540eaba5e7948c0843444d68fe6", null ],
     [ "enroll", "_global_completion_event_8hpp.html#gaf41ed1440261fe4b77aee43826cf352d", null ],
     [ "finish", "_global_completion_event_8hpp.html#ae60d424e890e6dfc18f880b28b168127", null ],
     [ "GRAPPA_DECLARE_METRIC", "_global_completion_event_8hpp.html#a4d1724771a8b461419a9ce5a97d22147", null ],

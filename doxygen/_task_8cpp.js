@@ -1,6 +1,5 @@
 var _task_8cpp =
 [
-    [ "MAXQUEUEDEPTH", "_task_8cpp.html#ade0b78fba5a83ad18aac19c7407d79ed", null ],
     [ "publicQ", "_task_8cpp.html#a2f476ac44ba8f77ae9e952250e3aaa41", null ],
     [ "DEFINE_int32", "_task_8cpp.html#ac275ac10d38b62422827f0817dab06bd", null ],
     [ "DEFINE_string", "_task_8cpp.html#aa25dbcebb0f2de8e205de46dc4336885", null ],
@@ -30,5 +29,6 @@ var _task_8cpp =
     [ "GRAPPA_DEFINE_METRIC", "_task_8cpp.html#a4ed7adcb6b04d67f79ceabc4c82f8337", null ],
     [ "GRAPPA_DEFINE_METRIC", "_task_8cpp.html#a764a145378eeeef519ef589825897032", null ],
     [ "GRAPPA_DEFINE_METRIC", "_task_8cpp.html#a096c0dfbe1c04947ebb7222aa84924fd", null ],
-    [ "GRAPPA_DEFINE_METRIC", "_task_8cpp.html#a4f5058b63f6d4b633135c15ac9bf2692", null ]
+    [ "GRAPPA_DEFINE_METRIC", "_task_8cpp.html#a4f5058b63f6d4b633135c15ac9bf2692", null ],
+    [ "steal_queue_size", "_task_8cpp.html#ad477e1a5ef284bc2fcb8dbff5ecfafba", null ]
 ];

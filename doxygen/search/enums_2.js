@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['taskmode',['TaskMode',['../namespace_grappa.html#ac6ade1fca200baa13c39fe78703897b9',1,'Grappa']]]
+  ['syncmode',['SyncMode',['../namespace_grappa.html#a1eb494aa98f6908538488b8d98cdbc7a',1,'Grappa']]]
 ];

@@ -1,14 +1,13 @@
 var _graph_8hpp =
 [
-    [ "VertexBase", "struct_grappa_1_1_vertex_base.html", "struct_grappa_1_1_vertex_base" ],
-    [ "Vertex", "struct_grappa_1_1_vertex.html", "struct_grappa_1_1_vertex" ],
-    [ "Vertex< T, true >", "struct_grappa_1_1_vertex_3_01_t_00_01true_01_4.html", "struct_grappa_1_1_vertex_3_01_t_00_01true_01_4" ],
-    [ "Graph", "struct_grappa_1_1_graph.html", "struct_grappa_1_1_graph" ],
-    [ "AdjIterator", "struct_grappa_1_1_adj_iterator.html", "struct_grappa_1_1_adj_iterator" ],
-    [ "OVERLOAD", "_graph_8hpp.html#a654bb1c090bb3ceb861a4bfd74ac0bb3", null ],
-    [ "adj", "_graph_8hpp.html#a6e833c15018f1d056039869e49e11d18", null ],
-    [ "adj", "_graph_8hpp.html#a62362bf6a843532b9e4ff0f3000b52cc", null ],
-    [ "forall", "_graph_8hpp.html#aee0ad5a08bc037e277b9802418c46954", null ],
-    [ "OVERLOAD", "_graph_8hpp.html#a6c5d34aaf9546af9ce313a801e5934c4", null ],
-    [ "OVERLOAD", "_graph_8hpp.html#a6ab22aa2cf82e7d4a56b4986263df8ac", null ]
+    [ "Edge", "struct_grappa_1_1_graph_1_1_edge.html", "struct_grappa_1_1_graph_1_1_edge" ],
+    [ "OVERLOAD", "group___graph.html#ga654bb1c090bb3ceb861a4bfd74ac0bb3", null ],
+    [ "VertexID", "_graph_8hpp.html#gaba4880159fa2d1b4192538c5eee688fc", null ],
+    [ "adj", "_graph_8hpp.html#ga6c416928a252552a745cd34526ecbf65", null ],
+    [ "adj", "_graph_8hpp.html#ga54fb566e36dd360c4c595119840be672", null ],
+    [ "adj", "_graph_8hpp.html#gad77bb4adddd0480478286d854c059aef", null ],
+    [ "forall", "_graph_8hpp.html#gac20551e77df87ef6621f445a2eb52159", null ],
+    [ "OVERLOAD", "_graph_8hpp.html#ga6c5d34aaf9546af9ce313a801e5934c4", null ],
+    [ "OVERLOAD", "_graph_8hpp.html#ga6ab22aa2cf82e7d4a56b4986263df8ac", null ],
+    [ "serial_for", "_graph_8hpp.html#ga1ba15c6220aea3dc5b3efbf1fdd795a2", null ]
 ];

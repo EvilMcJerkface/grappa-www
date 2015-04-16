@@ -23,7 +23,7 @@ navigation:
     link: "#about"
   - title: Contact
     link: "#contact"
-  - title: API Docs
+  - title: Docs
     link: "/doxygen"
   - title:
     link: http://github.com/uwsampa/grappa

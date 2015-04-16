@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['synchronization',['Synchronization',['../group___synchronization.html',1,'']]]
+  ['memory',['Memory',['../group___memory.html',1,'']]]
 ];

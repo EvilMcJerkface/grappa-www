@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['syncmode',['SyncMode',['../namespace_grappa.html#a1eb494aa98f6908538488b8d98cdbc7a',1,'Grappa']]]
+  ['reducertype',['ReducerType',['../_reducer_8hpp.html#a83a796198571b0d978a1b57faf77b9e0',1,'Reducer.hpp']]]
 ];

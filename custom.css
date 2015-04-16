@@ -5,3 +5,7 @@
 .jumbotron .btn {
   line-height: 1;
 }
+.page-header {
+font-family: Helvetica;
+font-weight: light;
+}

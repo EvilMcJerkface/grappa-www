@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['tasking',['Tasking',['../group___tasking.html',1,'']]]
+  ['synchronization',['Synchronization',['../group___synchronization.html',1,'']]]
 ];
