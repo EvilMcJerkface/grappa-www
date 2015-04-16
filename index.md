@@ -31,6 +31,11 @@ publications:
     authors: 'Jacob Nelson, Brandon Holt, Brandon Myers, Preston Briggs, Luis Ceze, Simon Kahan, and Mark Oskin'
     publication: 'Tech report, February 2014'
 
+  - title: Radish: Compiling Efficient Query Plans for Distributed Shared Memory
+    link: ftp://ftp.cs.washington.edu/tr/2014/10/UW-CSE-14-10-01.pdf
+    authors: 'Brandon Myers, Daniel Halperin, Jacob Nelson, Mark Oskin, Luis Ceze, Bill Howe'
+    publication: 'Tech report, October 2014'
+
   - title: Flat Combining Synchronized Global Data Structures
     link: http://sampa.cs.washington.edu/papers/holt-pgas13.pdf
     authors: 'Brandon Holt, Jacob Nelson, Brandon Myers, Preston Briggs, Luis Ceze, Simon Kahan, and Mark Oskin'
