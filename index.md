@@ -8,7 +8,7 @@ people:
     - name: Jacob Nelson
       image: images/nelson.jpg
     - name: Brandon Myers
-      image: images/myers.png
+      image: images/myers.jpg
     - name: Brandon Holt
       image: images/holt.jpg
     - name: Vincent Lee
