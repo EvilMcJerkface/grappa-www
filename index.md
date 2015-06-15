@@ -27,9 +27,9 @@ people:
 publications:
 
   - title: 'Latency-Tolerant Software Distributed Shared Memory'
-    link: http://sampa.cs.washington.edu/papers/grappa-tr-14-05-03.pdf
+    link: http://sampa.cs.washington.edu/papers/grappa-usenix-2015.pdf
     authors: 'Jacob Nelson, Brandon Holt, Brandon Myers, Preston Briggs, Luis Ceze, Simon Kahan, and Mark Oskin'
-    publication: 'Tech report, May 2014'
+    publication: 'To appear in USENIX Annual Technical Conference (USENIX ATC), July 2015'
 
   - title: 'Alembic: Automatic Locality Extraction via Migration'
     link: http://sampa.cs.washington.edu/papers/oopsla14-alembic.pdf
@@ -129,7 +129,7 @@ Grappa is still quite young, so please don't hesitate to ask for help if you run
 ### Publications
 
 {% for pub in page.publications %}
-<a href="{{ pub.link }}" onclick="trackOutboundLink('{{ pub.link }}'); return false;">{{ pub.title }}</a>. {% if pub.techreport %}<a href="{{ pub.techreport }}" onclick="trackOutboundLink('{{ pub.techreport }}'); return false;">(Expanded tech report)</a>{% endif %}<br/>
+{% if pub.link %}<a href="{{ pub.link }}" onclick="trackOutboundLink('{{ pub.link }}'); return false;">{{ pub.title }}</a>.{% else %}{{ pub.title }}.{% endif %} {% if pub.techreport %}<a href="{{ pub.techreport }}" onclick="trackOutboundLink('{{ pub.techreport }}'); return false;">(Expanded tech report)</a>{% endif %}<br/>
 {{pub.authors}}<br/>
 {{ pub.publication }}
 {% endfor %}
