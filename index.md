@@ -80,7 +80,7 @@ publications:
   <span class="glyphicon glyphicon-download"></span> Get the source
 </a>
 
-<a type="button" class="btn btn-default btn-lg" href="http://sampa.cs.washington.edu/papers/grappa-tr-14-05-03.pdf">
+<a type="button" class="btn btn-default btn-lg" href="http://sampa.cs.washington.edu/papers/grappa-usenix-2015.pdf">
   <span class="glyphicon glyphicon-file"></span> Read the latest paper
 </a>
 
