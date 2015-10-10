@@ -29,7 +29,7 @@ publications:
   - title: 'Latency-Tolerant Software Distributed Shared Memory'
     link: http://sampa.cs.washington.edu/papers/grappa-usenix-2015.pdf
     authors: 'Jacob Nelson, Brandon Holt, Brandon Myers, Preston Briggs, Luis Ceze, Simon Kahan, and Mark Oskin'
-    publication: 'To appear in USENIX Annual Technical Conference (USENIX ATC), July 2015'
+    publication: 'USENIX Annual Technical Conference (USENIX ATC), July 2015 (Best Paper Award)'
 
   - title: 'Alembic: Automatic Locality Extraction via Migration'
     link: http://sampa.cs.washington.edu/papers/oopsla14-alembic.pdf
