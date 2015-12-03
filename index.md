@@ -122,7 +122,7 @@ Grappa’s runtime system consists of three key components:
 </dl>
 
 ### Try it out now!
-Grappa is freely available on [Github](http://github.com/uwsampa/grappa) under the open source AGPL license (note: soon to be re-released under the BSD license!). Anyone interested in seeing Grappa at work can follow the quick-start directions in the README to build and run it on their cluster. To learn how to write your own Grappa applications, check out the [Tutorial](https://github.com/uwsampa/grappa/blob/master/doc/tutorial/tutorial.md).
+Grappa is freely available on [Github](http://github.com/uwsampa/grappa) under a BSD license. Anyone interested in seeing Grappa at work can follow the quick-start directions in the README to build and run it on their cluster. To learn how to write your own Grappa applications, check out the [Tutorial](https://github.com/uwsampa/grappa/blob/master/doc/tutorial/tutorial.md).
 
 Grappa is still quite young, so please don't hesitate to ask for help if you run into problems. To find answers to questions or ask new ones, please use [Github Issues](https://github.com/uwsampa/grappa/issues). The developers hang out in the ```#grappa.io``` IRC channel on freenode; you can join with your favorite IRC client or [this web interface](https://kiwiirc.com/client/chat.freenode.net/#grappa.io). Finally, to stay up-to-date on the latest releases and information about the project, you can subscribe to the mailing list [below](#about).
 
