@@ -24,7 +24,7 @@ navigation:
   - title: Contact
     link: "#contact"
   - title: Docs
-    link: "/doxygen"
+    link: "http://uwsampa.github.io/grappa-doxygen/html"
   - title:
     link: http://github.com/uwsampa/grappa
     icon: /images/GitHub-Mark-32px.png
