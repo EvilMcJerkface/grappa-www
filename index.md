@@ -86,9 +86,7 @@ publications:
 
 </div>
 
-<p align="center">
 <b>Note:</b> Grappa is no longer under active development.
-</p>
 
 ### A modern take on distributed shared memory
 Grappa makes an entire cluster look like a single, powerful, shared-memory machine. By leveraging the massive amount of concurrency in large-scale data-intensive applications, Grappa can provide this useful abstraction with high performance. Unlike classic distributed shared memory (DSM) systems, Grappa does *not* require spatial locality or data reuse to perform well.
