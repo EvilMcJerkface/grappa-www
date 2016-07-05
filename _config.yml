@@ -1,7 +1,5 @@
 name: Grappa
 description: Scaling irregular applications on commodity clusters.
-pygments: true
-highlighter: pygments
 
 base: ''
 
