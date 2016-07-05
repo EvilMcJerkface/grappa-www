@@ -21,8 +21,6 @@ navigation:
     link: /
   - title: About
     link: "#about"
-  - title: Contact
-    link: "#contact"
   - title: Docs
     link: "http://uwsampa.github.io/grappa-doxygen/html"
   - title:
