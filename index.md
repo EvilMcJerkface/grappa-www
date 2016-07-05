@@ -86,6 +86,7 @@ publications:
 
 </div>
 
+<br /><br />
 <b>Note:</b> Grappa is no longer under active development.
 
 ### A modern take on distributed shared memory
