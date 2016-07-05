@@ -81,15 +81,14 @@ publications:
 </a>
 
 <a type="button" class="btn btn-default btn-lg" href="http://sampa.cs.washington.edu/papers/grappa-usenix-2015.pdf">
-  <span class="glyphicon glyphicon-file"></span> Read the latest paper
-</a>
-
-<a type="button" class="btn btn-default btn-lg" href="#contact">
-  <span class="glyphicon glyphicon-send"></span> Join our mailing list
+  <span class="glyphicon glyphicon-file"></span> Read the paper
 </a>
 
 </div>
 
+<p align="center">
+<b>Note:</b> Grappa is no longer under active development.
+</p>
 
 ### A modern take on distributed shared memory
 Grappa makes an entire cluster look like a single, powerful, shared-memory machine. By leveraging the massive amount of concurrency in large-scale data-intensive applications, Grappa can provide this useful abstraction with high performance. Unlike classic distributed shared memory (DSM) systems, Grappa does *not* require spatial locality or data reuse to perform well.
@@ -167,36 +166,3 @@ Grappa is a project group in the [Sampa Group](http://sampa.cs.washington.edu) a
 </div>
 {% endfor %}
 
-<a name="contact"></a>
-### Contact us
-<script type="text/javascript">
-//<![CDATA[
-  <!--
-  var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
-  "=48){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
-  ".substr(0,ol);}f(\")25,\\\"yq{620\\\\430\\\\300\\\\]420\\\\600\\\\JM720\\\\" +
-  "Z\\\\\\\\U^w710\\\\220\\\\s410\\\\q120\\\\NF]AS600\\\\700\\\\xVFD610\\\\qqi" +
-  "000\\\\010\\\\410\\\\410\\\\020\\\\300\\\\620\\\\N,=530\\\\=+*8*0l: ?;0=m22" +
-  "0\\\\p*.8!h&zgl-.$4VLJ220\\\\OT\\\\\\\\UBUZP\\\"(f};o nruter};))++y(^)i(tAe" +
-  "doCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y;i=+y)25==i(fi{)++i;l<i;0=i(rof;htgn" +
-  "el.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\")"                                  ;
-  while(x=eval(x));
-  //-->
-  //]]>
-</script>
-or join our mailing list to be informed about software releases:
-
-<!-- Begin MailChimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css" />
-<style type="text/css">
-#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-<div id="mc_embed_signup">
-  <form action="http://washington.us3.list-manage.com/subscribe/post?u=f8b299cc9f146d09c0ae6e1bd&amp;id=d61febd840" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required />
-<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-    </div>
-  </form>
-</div>
